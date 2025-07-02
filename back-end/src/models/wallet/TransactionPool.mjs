@@ -12,7 +12,7 @@ export default class TransactionPool {
 
     } 
 
-    replaceMap () {
+    replaceMap (transactionMap ) {
 
         this.transactionMap = transactionMap;
 
@@ -20,9 +20,9 @@ export default class TransactionPool {
 
     transactionExists ({address}) {
 
-        const transaction = Object.values(this.transactionMap);
+        const transactions = Object.values(this.transactionMap);
 
-        return this.transactionExists.find(
+        return transactions.find(
         (transaction) => transaction.input.address === address);
 
     }

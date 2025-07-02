@@ -1,3 +1,5 @@
+import { app } from "./app.mjs";
+
 import Blockchain from "./models/blockchain/Blockchain.mjs";
 import TransactionPool from "./models/wallet/TransactionPool.mjs";
 import Wallet from "./models/wallet/Wallet.mjs";
@@ -10,12 +12,12 @@ import transactionRoutes from './routes/transaction-routes.mjs';
 
 
 
-export const blockChain = new Blockchain();
+export const blockchain = new Blockchain();
 export const transactionPool = new TransactionPool();
 export const wallet = new Wallet();
 export const server = new networkServer({
 
-    blockChain,
+    blockchain,
     transactionPool,
     wallet
 
@@ -39,7 +41,7 @@ const synchronize = async () => {
 
         const result = await response.json();
 
-        blockChain.replaceChain( result.data.chain );
+        blockchain.replaceChain( result.data.chain );
 
     };
 

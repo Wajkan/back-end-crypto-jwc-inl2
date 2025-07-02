@@ -57,6 +57,8 @@ export default class Network {
 
     handleMessage ( channel, message ) {
 
+        console.log(`Got message ${message} on channel ${channel}`);
+
         return {
 
             message: ( msgObject ) => {
