@@ -1,7 +1,8 @@
 node_modules
 .vscode
 .DS_STORE
+*.env
+.env*
 **/*.env
-**/.env*
 **/config.env
-**/*env
+config/
