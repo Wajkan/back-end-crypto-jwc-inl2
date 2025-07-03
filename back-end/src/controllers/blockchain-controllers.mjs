@@ -6,7 +6,7 @@ export const listAllBlocks = ( req, res ) => {
     res.status( 200 )
     .json( { success: true, data: blockchain } );
 
-};
+}
 
 export const addBlock = ( req, res ) => {
 
@@ -19,4 +19,4 @@ export const addBlock = ( req, res ) => {
     res.status( 201 )
     .json( { success: true, message: 'Block is added', data: blockchain.chain } );
 
-};
+}
