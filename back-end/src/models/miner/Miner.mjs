@@ -11,7 +11,7 @@ export default class Miner {
 
     };
 
-    mineTransactions() {
+    async mineTransactions() {
 
         let validTransactions = [];
 
@@ -19,7 +19,7 @@ export default class Miner {
 
         validTransactions.push( Transaction.transactionReward( { miner: this.wallet } ) );
 
-        this.blockchain.addBlock({ data: validTransactions });
+        await this.blockchain.addBlock({ data: validTransactions });
 
         this.server.broadcastChain();
 

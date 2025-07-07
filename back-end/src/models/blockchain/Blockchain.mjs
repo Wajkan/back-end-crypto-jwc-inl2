@@ -1,6 +1,8 @@
 import Block from "./Block.mjs";
+import BlockService from "../../services/block-services.mjs";
 import { createHash } from "../../utilities/hash.mjs";
 import { REWARD_ADDRESS } from "../../utilities/config.mjs";
+
 
 
 export default class Blockchain {
@@ -8,10 +10,11 @@ export default class Blockchain {
     constructor(){
 
         this.chain = [Block.genesis()];
+        this.blockService = new BlockService();
 
     };
 
-    addBlock ({ data }) {
+    async addBlock ({ data }) {
 
         const addedBlock = Block.mineBlock({
 
@@ -22,9 +25,21 @@ export default class Blockchain {
 
         this.chain.push(addedBlock);
 
+        try {
+            
+            await this.blockService.saveBlockToDatabase(addedBlock, this.chain.length - 1);
+            console.log('Block saved to database');
+            
+
+        } catch (error) {
+            
+            console.error('Error saving block to database:', error.message);
+
+        }
+
     };
 
-    replaceChain ( chain, callback ) {
+    async replaceChain ( chain, callback ) {
 
         if ( chain.length <= this.chain.length ) {
 
@@ -41,6 +56,17 @@ export default class Blockchain {
         if ( callback ) callback();
 
         this.chain = chain;
+
+        try {
+
+            await this.blockService.syncChainWithDatabase(chain);
+            console.log('Chain synced with database');
+            
+        } catch (error) {
+
+            console.error('Error syncing chain with database:', error.message);
+            
+        }
 
     };
 

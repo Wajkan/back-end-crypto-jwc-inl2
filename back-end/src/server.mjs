@@ -1,4 +1,5 @@
 import { app } from "./app.mjs";
+import { connectDatabase } from "./db/database.mjs";
 
 import Blockchain from "./models/blockchain/Blockchain.mjs";
 import TransactionPool from "./models/wallet/TransactionPool.mjs";
@@ -10,7 +11,7 @@ import blockchainRoutes from './routes/blockchain-routes.mjs';
 import transactionRoutes from './routes/transaction-routes.mjs';
 
 
-
+await connectDatabase();
 
 export const blockchain = new Blockchain();
 export const transactionPool = new TransactionPool();

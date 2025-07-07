@@ -69,7 +69,7 @@ export const listAllTransactions = ( req, res ) => {
 
 }
 
-export const mineTransactions = ( req, res ) => {
+export const mineTransactions = async ( req, res ) => {
 
     const miner = new Miner({
 
@@ -80,7 +80,7 @@ export const mineTransactions = ( req, res ) => {
 
     });
 
-    miner.mineTransactions();
+    await miner.mineTransactions();
 
     res.status( 200 )
     .json({success: true, statusCode: 200, data: 'You mined a block!'});
