@@ -119,20 +119,24 @@ async initializeFromDataBase() {
             console.log('📦 No chain found, booting with genesis only');
             
             try {
+
                 const genesisBlock = Block.genesis();
-                console.log('🔨 Creating genesis block:', genesisBlock);
                 
                 const savedGenesis = await this.blockService.saveBlockToDatabase(genesisBlock, 0);
                 console.log('✅ Genesis block saved to database:', savedGenesis._id);
                 
             } catch (saveError) {
+
                 console.error('❌ Failed to save genesis block:', saveError.message);
+
             }
         }
 
     } catch (error) {
+
         console.error('❌ Could not initialize chain from database:', error.message);
         console.log('📦 Starting with in-memory genesis block only');
+        
     }
 }
 
