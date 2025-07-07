@@ -1,5 +1,7 @@
-import { createHash } from "../../utilities/hash.mjs";
 import Block from "./Block.mjs";
+import { createHash } from "../../utilities/hash.mjs";
+import { REWARD_ADDRESS } from "../../utilities/config.mjs";
+
 
 export default class Blockchain {
 
@@ -22,7 +24,7 @@ export default class Blockchain {
 
     };
 
-    replaceChain ( chain ) {
+    replaceChain ( chain, callback ) {
 
         if ( chain.length <= this.chain.length ) {
 
@@ -30,14 +32,43 @@ export default class Blockchain {
 
         }
 
-        if (!Blockchain.isValid(chain)) {
+        if ( !Blockchain.isValid(chain) ) {
 
             return;
 
         }
 
+        if ( callback ) callback();
+
         this.chain = chain;
 
+    };
+
+    validateTransactionData({ chain }) {
+
+        for ( let i = 1; i < chain.length; i++ ) {
+
+            const block = chain[i];
+
+            let rewardCount = 0;
+
+            for ( let transaction of block.data ) {
+
+                if ( transaction.input.address === REWARD_ADDRESS.address ) {
+
+                    rewardCount += 1;
+
+                    if ( rewardCount > 1 ) {
+
+                        console.error('Too much crypto for you buddy');
+
+                        return false;
+
+                    }
+                }
+            }
+        }
+        return true;
     };
 
     static isValid ( chain ) {
@@ -64,6 +95,6 @@ export default class Blockchain {
 
         return true;
 
-    }
+    };
 
-}
+};

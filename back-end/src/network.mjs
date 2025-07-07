@@ -49,7 +49,7 @@ export default class Network {
         this.publish ({
 
             channel: CHANNELS.TRANSACTION,
-            message: JSON.stringify ( this.blockchain.chain ),
+            message: JSON.stringify ( transaction ),
 
         });
 
@@ -66,16 +66,22 @@ export default class Network {
                 const { channel, message } = msgObject;
                 const msg = JSON.parse ( message );
 
+                console.log(`Message recived on channel: ${channel} message: ${message}`);
+
                 switch ( channel ) {
 
                     case CHANNELS.BLOCKCHAIN:
-                        this.blockchain.replaceChain ( msg );
+                        this.blockchain.replaceChain ( msg, () => {
+
+                            this.transactionPool.clearBlockTransactions({ chain: msg });
+
+                        } );
                         break;
 
                     case CHANNELS.TRANSACTION:
                         if ( !this.transactionPool.transactionExists ( {
 
-                                address: this.wallet.publishKey
+                                address: this.wallet.publicKey
 
                             } )
                         ) { this.transactionPool.addTransaction ( msg ) }
@@ -83,13 +89,9 @@ export default class Network {
 
                     default:
                         return;
-
                 }
-
             }
-
         }
-
     }
 
     publish({ channel, message }) {
