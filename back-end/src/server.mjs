@@ -14,6 +14,8 @@ import transactionRoutes from './routes/transaction-routes.mjs';
 await connectDatabase();
 
 export const blockchain = new Blockchain();
+await new Promise(resolve => setTimeout(resolve, 2000));
+
 export const transactionPool = new TransactionPool();
 export const wallet = new Wallet();
 export const server = new networkServer({

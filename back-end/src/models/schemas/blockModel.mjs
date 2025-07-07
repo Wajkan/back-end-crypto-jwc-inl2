@@ -26,7 +26,7 @@ const blockSchema = new mongoose.Schema({
 
     data: {
 
-        type: mongoose.Schema.Types.Mixed,
+        type: String,
         required: true
 
     },
@@ -45,14 +45,15 @@ const blockSchema = new mongoose.Schema({
 
     },
 
-    blockIndex: {
+   blockIndex: {
 
         type: Number,
         required: true
 
     }
 
- 
+}, {  
+    collection: 'blocks'
 });
 
 export default mongoose.model('Block', blockSchema);
