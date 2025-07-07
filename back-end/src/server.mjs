@@ -44,7 +44,7 @@ const synchronize = async () => {
 
         const result = await response.json();
 
-        blockchain.replaceChain( result.data.chain );
+        blockchain.replaceChain( result.data );
 
     };
 
