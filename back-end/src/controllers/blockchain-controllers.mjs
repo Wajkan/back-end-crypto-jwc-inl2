@@ -4,7 +4,7 @@ import { server } from "../server.mjs";
 export const listAllBlocks = ( req, res ) => {
 
     res.status( 200 )
-    .json( { success: true, data: blockchain } );
+    .json( { success: true, data: blockchain.chain } );
 
 }
 

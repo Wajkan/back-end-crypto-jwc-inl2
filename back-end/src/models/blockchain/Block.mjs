@@ -5,7 +5,7 @@ import { GENESIS_BLOCK } from "./genesis.mjs";
 
 export default class Block {
 
-    constructor ({ timestamp, hash, lastHash, data, nonce , difficulty }) {
+    constructor ({ timestamp, hash, lastHash, data, nonce , difficulty, blockIndex }) {
 
         this.timestamp = timestamp;
         this.hash = hash;
@@ -13,6 +13,7 @@ export default class Block {
         this.data = data;
         this.nonce = nonce;
         this.difficulty = difficulty;
+        this.blockIndex = blockIndex;
 
     }
 
@@ -32,17 +33,21 @@ export default class Block {
 
         let nonce = 0;
 
+        const blockIndex = previousBlock.blockIndex + 1;
+
         do {
 
             nonce++;
             timestamp = Date.now();
             difficulty = Block.adjustDifficultyLevel ( { block: previousBlock, timestamp: timestamp } );
 
-            hash = createHash ( timestamp, lastHash, data, nonce, difficulty );
+            hash = createHash ( timestamp, data, lastHash, nonce, difficulty, blockIndex );
+
 
         } while (hash.substring (0, difficulty) !== '0'.repeat(difficulty));
 
-        return new this ({ timestamp, hash, lastHash, data, nonce, difficulty });
+        return new this ({ timestamp, hash, lastHash, data, nonce, difficulty, blockIndex});
+        
 
     }
 
