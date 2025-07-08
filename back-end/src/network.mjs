@@ -29,7 +29,8 @@ export default class Network {
 
         this.pubnub = new PubNub ( credentials );
         this.pubnub.subscribe( { channels: Object.values( CHANNELS ) } );
-        this.pubnub.addListener ( this.handleMessage () );
+        this.pubnub.addListener( this.handleMessage() );
+        
 
     }
 
@@ -57,7 +58,7 @@ export default class Network {
 
     handleMessage ( channel, message ) {
 
-        console.log(`Got message ${message} on channel ${channel}`);
+       console.log('PubNub message handler is up and running!');
 
         return {
 
