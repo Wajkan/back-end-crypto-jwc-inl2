@@ -9,6 +9,7 @@ import networkServer from "./network.mjs";
 
 import blockchainRoutes from './routes/blockchain-routes.mjs';
 import transactionRoutes from './routes/transaction-routes.mjs';
+import userRoutes from './routes/user-routes.mjs';
 
 
 await connectDatabase();
@@ -32,9 +33,11 @@ const ROOT_NODE = `http://localhost:${DEFAULT_PORT}`;
 let NODE_PORT;
 
 
-app.use( '/api/blocks', blockchainRoutes );
+app.use ( '/api/v1/blocks', blockchainRoutes );
 
-app.use ( '/api/wallet', transactionRoutes );
+app.use ( '/api/v1/wallet', transactionRoutes );
+
+app.use ( '/api/v1/users', userRoutes );
 
 const synchronize = async () => {
 
