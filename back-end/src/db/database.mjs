@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import AppError from '../models/global/appError.mjs';
 
 export const connectDatabase = async () => {
 
@@ -14,7 +15,7 @@ export const connectDatabase = async () => {
 
     } catch (error) {
 
-        console.error('Database connection error:', error);
+        throw new AppError(error.message, 500);
         
     }
 

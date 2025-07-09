@@ -10,6 +10,7 @@ import networkServer from "./network.mjs";
 import blockchainRoutes from './routes/blockchain-routes.mjs';
 import transactionRoutes from './routes/transaction-routes.mjs';
 import userRoutes from './routes/user-routes.mjs';
+import authRouter from './routes/auth-routes.mjs';
 
 
 await connectDatabase();
@@ -38,6 +39,8 @@ app.use ( '/api/v1/blocks', blockchainRoutes );
 app.use ( '/api/v1/wallet', transactionRoutes );
 
 app.use ( '/api/v1/users', userRoutes );
+
+app.use ('/api/v1/auth', authRouter);
 
 const synchronize = async () => {
 
