@@ -4,9 +4,11 @@ export default class UserRepository {
 
     async add( user ) {
 
-        const { firstName, lastName, email, password } = user
+        await userModel.create(user);
 
-        return await userModel.create({ firstName, lastName, email, password })
+        user.password = undefined
+
+        return user;
 
     }
 
@@ -15,6 +17,12 @@ export default class UserRepository {
         return login === true
         ? await userModel.findOne({email: email}).select('+password') 
         : await userModel.findOne({ email: email });
+
+    }
+
+    async findById(id) {
+
+        return await userModel.findById(id);
 
     }
 

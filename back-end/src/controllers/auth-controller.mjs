@@ -1,3 +1,4 @@
+import { promisify } from 'util';
 import { catchErrorAsync } from "../utilities/catchErrorAsync.mjs";
 import jwt from 'jsonwebtoken';
 import AppError from "../models/global/appError.mjs";
@@ -30,6 +31,50 @@ export const loginUser = catchErrorAsync( async ( req, res, next ) => {
 
 });
 
+
+export const protect = catchErrorAsync(async (req, res, next) => {
+
+    let token;
+
+    if(req.headers.authorization && req.headers.authorization.toLowerCase().startsWith('bearer')){
+
+        token = req.headers.authorization.split(' ')[1];
+
+    }
+
+    if(!token) {
+
+        return next(new AppError('Must be logged in to acces this information', 401))
+
+    }
+    
+    const decoded = await verifyToken(token);
+
+    const user = await new UserRepository().findById(decoded.id)
+
+    req.user = user;
+
+    next();
+
+})
+
+export const authorize = (...roles) => {
+
+    return(req, res, next) => {
+        
+        if(!roles.includes(req.user.role)){
+
+            return next(new AppError('Forbidden acces', 403))
+
+        }
+
+        next();        
+
+    }
+
+}
+
+
 const createToken = ( userId ) => {
 
     return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
@@ -39,3 +84,9 @@ const createToken = ( userId ) => {
     })
 
 };
+
+const verifyToken = async( token ) => {
+
+    return await promisify(jwt.verify)(token, process.env.JWT_SECRET);
+
+}
