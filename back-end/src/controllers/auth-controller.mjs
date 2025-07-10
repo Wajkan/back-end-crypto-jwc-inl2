@@ -1,6 +1,8 @@
 import { catchErrorAsync } from "../utilities/catchErrorAsync.mjs";
+import jwt from 'jsonwebtoken';
 import AppError from "../models/global/appError.mjs";
 import UserRepository from "../repositories/user-repository.mjs";
+
 
 export const loginUser = catchErrorAsync( async ( req, res, next ) => {
 
@@ -20,9 +22,20 @@ export const loginUser = catchErrorAsync( async ( req, res, next ) => {
 
     }
 
-    console.log(user)
+    const token = createToken(user._id);
+
 
     res.status(200)
-    .json({success: true, statusCode: 200, data:'ALMOST THERE'})
+    .json({success: true, statusCode: 200, data: { token: token }})
 
 });
+
+const createToken = ( userId ) => {
+
+    return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
+
+        expiresIn: process.env.JWT_EXPIRES
+
+    })
+
+};
