@@ -23,9 +23,10 @@ export const loginUser = catchErrorAsync( async ( req, res, next ) => {
 
     }
 
+
     const token = createToken(user._id);
 
-
+    
     res.status(200)
     .json({success: true, statusCode: 200, data: { token: token }})
 

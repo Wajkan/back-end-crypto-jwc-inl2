@@ -4,11 +4,7 @@ export default class UserRepository {
 
     async add( user ) {
 
-        await userModel.create(user);
-
-        user.password = undefined
-
-        return user;
+        return await userModel.create(user);
 
     }
 
