@@ -1,0 +1,209 @@
+
+    Method: GET 
+    Url: /api/v1/ 
+    Date: 2025-07-11 
+    Time: 13:51:03 
+    Success: false  
+    Message: /api/v1/ do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks 
+    Date: 2025-07-11 
+    Time: 13:52:02 
+    Success: false  
+    Message: /api/v1/blocks do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks/ 
+    Date: 2025-07-11 
+    Time: 13:52:29 
+    Success: false  
+    Message: /api/v1/blocks/ do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks 
+    Date: 2025-07-11 
+    Time: 13:52:32 
+    Success: false  
+    Message: /api/v1/blocks do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks/ 
+    Date: 2025-07-11 
+    Time: 13:53:36 
+    Success: false  
+    Message: /api/v1/blocks/ do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks/ 
+    Date: 2025-07-11 
+    Time: 13:53:37 
+    Success: false  
+    Message: /api/v1/blocks/ do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks/ 
+    Date: 2025-07-11 
+    Time: 13:54:55 
+    Success: false  
+    Message: /api/v1/blocks/ do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks 
+    Date: 2025-07-11 
+    Time: 13:54:58 
+    Success: false  
+    Message: /api/v1/blocks do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/mine 
+    Date: 2025-07-11 
+    Time: 13:55:04 
+    Success: false  
+    Message: /api/v1/mine do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 13:56:03 
+    Success: false  
+    Message: /api/v1/wallet/info do not exist on this folder!
+
+    
+    Method: POST 
+    Url: /api/v1/auth 
+    Date: 2025-07-11 
+    Time: 13:56:08 
+    Success: false  
+    Message: /api/v1/auth do not exist on this folder!
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 14:04:03 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 14:04:24 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/mine 
+    Date: 2025-07-11 
+    Time: 14:35:34 
+    Success: false  
+    Message: Can't find /api/v1/mine on this server!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks/mine 
+    Date: 2025-07-11 
+    Time: 14:35:48 
+    Success: false  
+    Message: Can't find /api/v1/blocks/mine on this server!
+
+    
+    Method: GET 
+    Url: /api/v1/blocks 
+    Date: 2025-07-11 
+    Time: 14:38:27 
+    Success: false  
+    Message: next is not defined
+
+    
+    Method: GET 
+    Url: /api/v1/blocks 
+    Date: 2025-07-11 
+    Time: 14:38:31 
+    Success: false  
+    Message: next is not defined
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 14:47:43 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 14:50:09 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 14:53:16 
+    Success: false  
+    Message: next is not defined
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 14:53:21 
+    Success: false  
+    Message: next is not defined
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 14:54:59 
+    Success: false  
+    Message: Amount and recipient are required
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 15:00:28 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:00:49 
+    Success: false  
+    Message: Amount and recipient are required
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 15:03:39 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: POST 
+    Url: /api/v1/blocks/mine 
+    Date: 2025-07-11 
+    Time: 15:23:04 
+    Success: false  
+    Message: Data is required
+
+    

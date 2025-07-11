@@ -1,0 +1,649 @@
+
+        Method: GET
+        Url: /api/v1/
+        Date: 2025-07-11
+        Time: 13:51:03
+        Status: 404
+        Duration: 1ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/ do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 13:52:02
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/blocks do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks/
+        Date: 2025-07-11
+        Time: 13:52:29
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/blocks/ do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 13:52:32
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/blocks do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks/
+        Date: 2025-07-11
+        Time: 13:53:36
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/blocks/ do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks/
+        Date: 2025-07-11
+        Time: 13:53:37
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/blocks/ do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks/
+        Date: 2025-07-11
+        Time: 13:54:55
+        Status: 404
+        Duration: 1ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/blocks/ do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 13:54:58
+        Status: 404
+        Duration: 1ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/blocks do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/mine
+        Date: 2025-07-11
+        Time: 13:55:04
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/mine do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/wallet/info
+        Date: 2025-07-11
+        Time: 13:56:03
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/wallet/info do not exist on this folder!"}
+        
+        Method: POST
+        Url: /api/v1/auth
+        Date: 2025-07-11
+        Time: 13:56:08
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, vi hittar inte resursen som du frågar efter","statusCode":404,"message":"/api/v1/auth do not exist on this folder!"}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 14:03:32
+        Status: 200
+        Duration: 1ms
+        Response: {"success":true,"data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6}]}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:03:53
+        Status: 200
+        Duration: 17ms
+        Response: {"success":true,"statusCode":200,"data":{}}
+        
+        Method: GET
+        Url: /api/v1/users
+        Date: 2025-07-11
+        Time: 14:03:57
+        Status: 200
+        Duration: 11ms
+        Response: {"success":true,"statusCode":200,"data":{"users":[{"_id":"686fea69481b82a51f3389f8","firstName":"Erik","lastName":"Wiklund","email":"wiklund.karl@gmail.com","role":"user","__v":0}]}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:04:03
+        Status: 401
+        Duration: 0ms
+        Response: {"success":false,"status":"Unauthorized, du måste vara inloggad","statusCode":401,"message":"Must be logged in to acces this information"}
+        
+        Method: GET
+        Url: /api/v1/wallet/info
+        Date: 2025-07-11
+        Time: 14:04:13
+        Status: 200
+        Duration: 13ms
+        Response: {"success":true,"statusCode":200,"data":{"address":"04e72f8e789965f53cb00daa3a5a67f83b021838c0b59d794b463b8529c6cf65528972090ad623c27aa0c811a02ade13f1e26af928734e3e19708d079fe464c4da","balance":1000}}
+        
+        Method: POST
+        Url: /api/v1/auth
+        Date: 2025-07-11
+        Time: 14:04:18
+        Status: 200
+        Duration: 370ms
+        Response: {"success":true,"statusCode":200,"data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NmZlYTY5NDgxYjgyYTUxZjMzODlmOCIsImlhdCI6MTc1MjIzNTQ1OCwiZXhwIjoxNzUyODQwMjU4fQ.nsvqlX9Hjh-zxdePosuBsEbOmJlh0_brU3Dy7JcJQic"}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:04:24
+        Status: 401
+        Duration: 0ms
+        Response: {"success":false,"status":"Unauthorized, du måste vara inloggad","statusCode":401,"message":"Must be logged in to acces this information"}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:17:56
+        Status: 200
+        Duration: 17ms
+        Response: {"success":true,"statusCode":200,"data":{}}
+        
+        Method: GET
+        Url: /api/v1/mine
+        Date: 2025-07-11
+        Time: 14:35:34
+        Status: 404
+        Duration: 1ms
+        Response: {"success":false,"status":"Not Found, could not find the resource you are looking for","statusCode":404,"message":"Can't find /api/v1/mine on this server!"}
+        
+        Method: GET
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 14:35:48
+        Status: 404
+        Duration: 0ms
+        Response: {"success":false,"status":"Not Found, could not find the resource you are looking for","statusCode":404,"message":"Can't find /api/v1/blocks/mine on this server!"}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 14:36:04
+        Status: 201
+        Duration: 13ms
+        Response: {"success":true,"message":"Block is added","data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6},{"timestamp":1752237364259,"hash":"0ab4e55f0269604260af2fcab790441ced38c4b2dc4cbb3fc3aeb1a0bbecb9c3","lastHash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","nonce":1,"difficulty":0,"blockIndex":7}]}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 14:36:24
+        Status: 201
+        Duration: 3ms
+        Response: {"success":true,"message":"Block is added","data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6},{"timestamp":1752237364259,"hash":"0ab4e55f0269604260af2fcab790441ced38c4b2dc4cbb3fc3aeb1a0bbecb9c3","lastHash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","nonce":1,"difficulty":0,"blockIndex":7},{"timestamp":1752237384590,"hash":"0b9945407ba1dac2b1e65f3ae394e81e43f2d809e80329169dc5eb0f96ce82bc","lastHash":"0ab4e55f0269604260af2fcab790441ced38c4b2dc4cbb3fc3aeb1a0bbecb9c3","nonce":26,"difficulty":1,"blockIndex":8}]}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 14:38:27
+        Status: 500
+        Duration: 0ms
+        Response: {"success":false,"status":"Internal Server Error","statusCode":500,"message":"next is not defined"}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 14:38:31
+        Status: 500
+        Duration: 0ms
+        Response: {"success":false,"status":"Internal Server Error","statusCode":500,"message":"next is not defined"}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 14:39:17
+        Status: 200
+        Duration: 0ms
+        Response: {"success":true,"data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6}]}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 14:40:26
+        Status: 201
+        Duration: 8ms
+        Response: {"success":true,"message":"Block is added","data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6},{"timestamp":1752237626337,"hash":"37f8ff440d2530ab62986cd193eec447ec06863ac12efe20074042161224d3e2","lastHash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","nonce":1,"difficulty":0,"blockIndex":7}]}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 14:40:31
+        Status: 201
+        Duration: 3ms
+        Response: {"success":true,"message":"Block is added","data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6},{"timestamp":1752237626337,"hash":"37f8ff440d2530ab62986cd193eec447ec06863ac12efe20074042161224d3e2","lastHash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","nonce":1,"difficulty":0,"blockIndex":7},{"timestamp":1752237631231,"hash":"053d4248dbe476ce602ddfaec133da0b0d6c816e0086f1371fe4ef5874647658","lastHash":"37f8ff440d2530ab62986cd193eec447ec06863ac12efe20074042161224d3e2","nonce":29,"difficulty":1,"blockIndex":8}]}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 14:40:36
+        Status: 201
+        Duration: 1ms
+        Response: {"success":true,"message":"Block is added","data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6},{"timestamp":1752237626337,"hash":"37f8ff440d2530ab62986cd193eec447ec06863ac12efe20074042161224d3e2","lastHash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","nonce":1,"difficulty":0,"blockIndex":7},{"timestamp":1752237631231,"hash":"053d4248dbe476ce602ddfaec133da0b0d6c816e0086f1371fe4ef5874647658","lastHash":"37f8ff440d2530ab62986cd193eec447ec06863ac12efe20074042161224d3e2","nonce":29,"difficulty":1,"blockIndex":8},{"timestamp":1752237636771,"hash":"ed6463f591a85b5537f2c9444a3f0b33518ab9615a3dda6e6099834178b5a8be","lastHash":"053d4248dbe476ce602ddfaec133da0b0d6c816e0086f1371fe4ef5874647658","nonce":1,"difficulty":0,"blockIndex":9}]}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:47:43
+        Status: 401
+        Duration: 1ms
+        Response: {"success":false,"status":"Unauthorized, please login","statusCode":401,"message":"Must be logged in to acces this information"}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:48:40
+        Status: 200
+        Duration: 23ms
+        Response: {"success":true,"statusCode":200,"data":{}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:48:51
+        Status: 200
+        Duration: 12ms
+        Response: {"success":true,"statusCode":200,"data":{}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:49:22
+        Status: 201
+        Duration: 40ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"efffcd7238b848348d23a10e28f76f8e","outputMap":{"Matilda":100,"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":900},"input":{"timestamp":1752238162540,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"cb858228d21703c310cdc26e04d7ac80bb094ae4d6cfc556160c5ab5926a65ef","s":"69449bb5128913efbd44e29e6d2df93490445484f10ed451d56cee54de493b1a","recoveryParam":1}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:50:00
+        Status: 200
+        Duration: 14ms
+        Response: {"success":true,"statusCode":200,"data":{"efffcd7238b848348d23a10e28f76f8e":{"id":"efffcd7238b848348d23a10e28f76f8e","outputMap":{"Matilda":100,"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":900},"input":{"timestamp":1752238162540,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"cb858228d21703c310cdc26e04d7ac80bb094ae4d6cfc556160c5ab5926a65ef","s":"69449bb5128913efbd44e29e6d2df93490445484f10ed451d56cee54de493b1a","recoveryParam":1}}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 14:50:09
+        Status: 401
+        Duration: 1ms
+        Response: {"success":false,"status":"Unauthorized, please login","statusCode":401,"message":"Must be logged in to acces this information"}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 14:50:22
+        Status: 200
+        Duration: 115ms
+        Response: {"success":true,"statusCode":200,"data":"You mined a block!"}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:50:27
+        Status: 200
+        Duration: 38ms
+        Response: {"success":true,"statusCode":200,"data":{}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:50:38
+        Status: 200
+        Duration: 15ms
+        Response: {"success":true,"statusCode":200,"data":{}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:51:20
+        Status: 201
+        Duration: 17ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"3840a3fabe1248899c08df4586bfe94c","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":null},"input":{"timestamp":1752238280081,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"9fb06c93bc371d11c4ce4f1059d4562b708bf4e94ebca9a5585aedded50293b5","s":"6ce32cb61efb7bc613ba202898856f0627e55c2b722d1910e798384657eaae64","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:51:24
+        Status: 201
+        Duration: 17ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"3840a3fabe1248899c08df4586bfe94c","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":null},"input":{"timestamp":1752238284210,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"9fb06c93bc371d11c4ce4f1059d4562b708bf4e94ebca9a5585aedded50293b5","s":"6ce32cb61efb7bc613ba202898856f0627e55c2b722d1910e798384657eaae64","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:51:25
+        Status: 201
+        Duration: 17ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"3840a3fabe1248899c08df4586bfe94c","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":null},"input":{"timestamp":1752238285142,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"9fb06c93bc371d11c4ce4f1059d4562b708bf4e94ebca9a5585aedded50293b5","s":"6ce32cb61efb7bc613ba202898856f0627e55c2b722d1910e798384657eaae64","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:51:25
+        Status: 201
+        Duration: 16ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"3840a3fabe1248899c08df4586bfe94c","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":null},"input":{"timestamp":1752238285913,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"9fb06c93bc371d11c4ce4f1059d4562b708bf4e94ebca9a5585aedded50293b5","s":"6ce32cb61efb7bc613ba202898856f0627e55c2b722d1910e798384657eaae64","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:51:26
+        Status: 201
+        Duration: 15ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"3840a3fabe1248899c08df4586bfe94c","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":null},"input":{"timestamp":1752238286664,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"9fb06c93bc371d11c4ce4f1059d4562b708bf4e94ebca9a5585aedded50293b5","s":"6ce32cb61efb7bc613ba202898856f0627e55c2b722d1910e798384657eaae64","recoveryParam":0}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:51:32
+        Status: 200
+        Duration: 12ms
+        Response: {"success":true,"statusCode":200,"data":{"3840a3fabe1248899c08df4586bfe94c":{"id":"3840a3fabe1248899c08df4586bfe94c","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":null},"input":{"timestamp":1752238286664,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"9fb06c93bc371d11c4ce4f1059d4562b708bf4e94ebca9a5585aedded50293b5","s":"6ce32cb61efb7bc613ba202898856f0627e55c2b722d1910e798384657eaae64","recoveryParam":0}}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:51:33
+        Status: 200
+        Duration: 13ms
+        Response: {"success":true,"statusCode":200,"data":{"3840a3fabe1248899c08df4586bfe94c":{"id":"3840a3fabe1248899c08df4586bfe94c","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":null},"input":{"timestamp":1752238286664,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"9fb06c93bc371d11c4ce4f1059d4562b708bf4e94ebca9a5585aedded50293b5","s":"6ce32cb61efb7bc613ba202898856f0627e55c2b722d1910e798384657eaae64","recoveryParam":0}}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:53:16
+        Status: 500
+        Duration: 15ms
+        Response: {"success":false,"status":"Internal Server Error","statusCode":500,"message":"next is not defined"}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:53:21
+        Status: 500
+        Duration: 15ms
+        Response: {"success":false,"status":"Internal Server Error","statusCode":500,"message":"next is not defined"}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 14:54:59
+        Status: 400
+        Duration: 16ms
+        Response: {"success":false,"status":"Bad Request, missing information","statusCode":400,"message":"Amount and recipient are required"}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 15:00:28
+        Status: 400
+        Duration: 15ms
+        Response: {"success":false,"status":"Bad Request, missing information","statusCode":400,"message":"No transactions to mine"}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:00:49
+        Status: 400
+        Duration: 15ms
+        Response: {"success":false,"status":"Bad Request, missing information","statusCode":400,"message":"Amount and recipient are required"}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:01:03
+        Status: 201
+        Duration: 36ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"cd5f6727984c422cb60ae89c6fbd4001","outputMap":{"Matilda":100,"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493":900},"input":{"timestamp":1752238863486,"amount":1000,"address":"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493","signature":{"r":"c2511d412a435fabaf4b077e3e506c3a9905615e25cbe35679f1f6a2656f1f50","s":"a62847d853858a7bcf8f9d8207ce21058948826d09bdee802dcfbeb715f4e2a1","recoveryParam":0}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 15:01:08
+        Status: 200
+        Duration: 127ms
+        Response: {"success":true,"statusCode":200,"data":"You mined a block!"}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 15:03:39
+        Status: 400
+        Duration: 15ms
+        Response: {"success":false,"status":"Bad Request, missing information","statusCode":400,"message":"No transactions to mine"}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:03:48
+        Status: 201
+        Duration: 38ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"fe706475b33f4294a5c92c1c409baef9","outputMap":{"Matilda":100,"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b":900},"input":{"timestamp":1752239028101,"amount":1000,"address":"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b","signature":{"r":"372653ba1ff923b2e9e699e92cfd14196732341a0ed31b76db0f37502a3c9cef","s":"3c8681aa9b70607a1ec5885e807d9ec1b337ead8d25006f119b7644f02438d41","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:03:49
+        Status: 201
+        Duration: 31ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"fe706475b33f4294a5c92c1c409baef9","outputMap":{"Matilda":200,"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b":800},"input":{"timestamp":1752239029512,"amount":1000,"address":"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b","signature":{"r":"192ed1b014048b140eb4ec4577c5a30a8f2ace0bb84a1849f4b2dfbd4bbca047","s":"f83aaddddcec5fb35ecc158de73a5c7333c7a3cfc70e269bc51f3b8240770b3","recoveryParam":0}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 15:03:54
+        Status: 200
+        Duration: 102ms
+        Response: {"success":true,"statusCode":200,"message":"You mined a block!","data":{"message":"Congratulations, you succesfully mined a block!","numberOfTransactions":2,"blockHash":"78e07550f4be577cf6a9c73b8c363067794abe30b2d3b8b0931051dab3a54545"}}
+        
+        Method: GET
+        Url: /api/v1/wallet/info
+        Date: 2025-07-11
+        Time: 15:07:01
+        Status: 200
+        Duration: 15ms
+        Response: {"success":true,"statusCode":200,"data":{"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","balance":1000}}
+        
+        Method: GET
+        Url: /api/v1/wallet/info
+        Date: 2025-07-11
+        Time: 15:07:04
+        Status: 200
+        Duration: 11ms
+        Response: {"success":true,"statusCode":200,"data":{"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","balance":1000}}
+        
+        Method: GET
+        Url: /api/v1/wallet/info
+        Date: 2025-07-11
+        Time: 15:07:05
+        Status: 200
+        Duration: 12ms
+        Response: {"success":true,"statusCode":200,"data":{"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","balance":1000}}
+        
+        Method: GET
+        Url: /api/v1/wallet/info
+        Date: 2025-07-11
+        Time: 15:07:06
+        Status: 200
+        Duration: 13ms
+        Response: {"success":true,"statusCode":200,"data":{"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","balance":1000}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:07:14
+        Status: 201
+        Duration: 36ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"784edd72bcb14e0ca918a6d9040c33fa","outputMap":{"Matilda":100,"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca":900},"input":{"timestamp":1752239234273,"amount":1000,"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","signature":{"r":"4d2381d6736e70d309ce1c7e6e5711c9f3b371b1bcf1cf4062e545c40b3a18a","s":"94a47db9e56adf4d62da44d4b33f229afed5cd7c313db9bff9a273e6efd182b1","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:07:15
+        Status: 201
+        Duration: 34ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"784edd72bcb14e0ca918a6d9040c33fa","outputMap":{"Matilda":200,"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca":800},"input":{"timestamp":1752239235217,"amount":1000,"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","signature":{"r":"77e6e34499a93c15bb26b7ea9e416ac13f4f80eb8f64d71c44a0fbb51d614e2c","s":"36cf0ee648dc3f6cb3b111033218425939b7d53238168d239c45d156c2473dbb","recoveryParam":1}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:07:19
+        Status: 201
+        Duration: 31ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"784edd72bcb14e0ca918a6d9040c33fa","outputMap":{"Matilda":200,"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca":700,"Johan":100},"input":{"timestamp":1752239239780,"amount":1000,"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","signature":{"r":"827cc49227cd521a9e2a168e30e5b17381eff2e243af36af9cc7cdf0e3f29610","s":"a14fee2ecb58b53c089100ac234aeea163e98dc5e0e1b71fd6213fc6ecaf50f8","recoveryParam":0}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 15:07:30
+        Status: 200
+        Duration: 64ms
+        Response: {"success":true,"statusCode":200,"message":"You mined a block!","data":{"message":"Congratulations, you succesfully mined a block!","numberOfTransactions":2,"blockHash":"079857dec1f554933ea626b066cc84b6273ea312bb4711266463fb5389aa0ff8"}}
+        
+        Method: GET
+        Url: /api/v1/wallet/info
+        Date: 2025-07-11
+        Time: 15:07:43
+        Status: 200
+        Duration: 14ms
+        Response: {"success":true,"statusCode":200,"data":{"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","balance":750}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:09:28
+        Status: 201
+        Duration: 43ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"cf9e936dd4844f498a3bc6626fb8481e","outputMap":{"Johan":100,"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":900},"input":{"timestamp":1752239368080,"amount":1000,"address":"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6","signature":{"r":"fb636972bacf359287fa47df4c8ea9245ec79ca404fb05e1fc03d12a4230476a","s":"3f1c37f0211d113cff74806318b7a3cfdf409453e303bb8ff05cee576254c797","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:09:31
+        Status: 201
+        Duration: 32ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"cf9e936dd4844f498a3bc6626fb8481e","outputMap":{"Johan":200,"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":800},"input":{"timestamp":1752239371189,"amount":1000,"address":"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6","signature":{"r":"5cd29fefd85a0d2da7f80a7e5f3a522aedc487382caea2e8e0f87a691dd30762","s":"bd2d3fc6ba0a4937f19276d4fc875505001062f05d20b36eff2cf2f8e5aacc6a","recoveryParam":1}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:09:36
+        Status: 201
+        Duration: 33ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"cf9e936dd4844f498a3bc6626fb8481e","outputMap":{"Johan":200,"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":700,"Erik":100},"input":{"timestamp":1752239376147,"amount":1000,"address":"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6","signature":{"r":"6d9acf345f159f415f0c990645df9201423e69de0d1cf2772c00b42d6b093795","s":"a3deb1d24b3cb521928a77f605b03fc272b496f5230ac0d6cd0c1107b7dabab9","recoveryParam":0}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:09:41
+        Status: 201
+        Duration: 21ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"cf9e936dd4844f498a3bc6626fb8481e","outputMap":{"Johan":200,"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":600,"Erik":100,"Mikael":100},"input":{"timestamp":1752239381219,"amount":1000,"address":"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6","signature":{"r":"1e025f377fe69555f7faf43f260ae3dac8057e09572c51656e19fdff5466bba3","s":"e6ef26bff808d7820a4c655be6cae23bb3fab505872435c5f8b5aa332b096dab","recoveryParam":1}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:09:47
+        Status: 201
+        Duration: 15ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"cf9e936dd4844f498a3bc6626fb8481e","outputMap":{"Johan":200,"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":500,"Erik":100,"Mikael":100,"Konrad":100},"input":{"timestamp":1752239387281,"amount":1000,"address":"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6","signature":{"r":"f5c4158376200e0d73fada6cfce308e3b38c5dc84fcbc53ca32632ddf5714f0a","s":"567367194467f69d027b7faf1404f0cc266cb0013a5a4f9a89f91262b1d13b6c","recoveryParam":0}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions/mine
+        Date: 2025-07-11
+        Time: 15:09:56
+        Status: 200
+        Duration: 66ms
+        Response: {"success":true,"statusCode":200,"message":"You mined a block!","data":{"message":"Congratulations, you succesfully mined a block!","transactionCount":2,"blockHash":"6afe04fd803e1fdc4dc23434cd300034f2bc5bb648a284b506bc31d4c23ebec7"}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:13:48
+        Status: 200
+        Duration: 21ms
+        Response: {"success":true,"statusCode":200,"data":{}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:16:00
+        Status: 200
+        Duration: 15ms
+        Response: {"success":true,"statusCode":200,"results":0,"data":{}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:16:06
+        Status: 201
+        Duration: 39ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"44588c0eb9e94a37bc2944e6fd3ea06f","outputMap":{"Konrad":100,"040fa6c183975718f62a31b2d1c596cea9645ef0a184ec9f3922b650cf05e2b0f3ae42a68adaae40b5ec7d8684cedfeda520fc94d0e03e70a0914e9388c64378a5":900},"input":{"timestamp":1752239766128,"amount":1000,"address":"040fa6c183975718f62a31b2d1c596cea9645ef0a184ec9f3922b650cf05e2b0f3ae42a68adaae40b5ec7d8684cedfeda520fc94d0e03e70a0914e9388c64378a5","signature":{"r":"6f31d5c57b5a92622fd74b2483b531eefaf51d7db455ff95081f74aec784fb9c","s":"1005bcd5fbec9f2025c78e1f685e68143ecbe5ff768cb461b59398f2cdd3699f","recoveryParam":1}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:16:14
+        Status: 200
+        Duration: 14ms
+        Response: {"success":true,"statusCode":200,"results":1,"data":{"44588c0eb9e94a37bc2944e6fd3ea06f":{"id":"44588c0eb9e94a37bc2944e6fd3ea06f","outputMap":{"Konrad":100,"040fa6c183975718f62a31b2d1c596cea9645ef0a184ec9f3922b650cf05e2b0f3ae42a68adaae40b5ec7d8684cedfeda520fc94d0e03e70a0914e9388c64378a5":900},"input":{"timestamp":1752239766128,"amount":1000,"address":"040fa6c183975718f62a31b2d1c596cea9645ef0a184ec9f3922b650cf05e2b0f3ae42a68adaae40b5ec7d8684cedfeda520fc94d0e03e70a0914e9388c64378a5","signature":{"r":"6f31d5c57b5a92622fd74b2483b531eefaf51d7db455ff95081f74aec784fb9c","s":"1005bcd5fbec9f2025c78e1f685e68143ecbe5ff768cb461b59398f2cdd3699f","recoveryParam":1}}}}}
+        
+        Method: POST
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:16:49
+        Status: 201
+        Duration: 32ms
+        Response: {"success":true,"statusCode":201,"data":{"id":"8d80c899696f47c5a884cff6f2832fe9","outputMap":{"Konrad":100,"0417f49535352fdbbc87ce3eaa5324a56b3ca15a3408bc69a8cd0d0c13fe5916da23361d7da8977a1781c0ad71bb11ce610e9adc36f3cebf58d04fe9dff76d3c03":900},"input":{"timestamp":1752239809596,"amount":1000,"address":"0417f49535352fdbbc87ce3eaa5324a56b3ca15a3408bc69a8cd0d0c13fe5916da23361d7da8977a1781c0ad71bb11ce610e9adc36f3cebf58d04fe9dff76d3c03","signature":{"r":"2b5472bf907b7b8ba472bcf00aa9952fda4752010f1154cb2a1c5713c76f16c6","s":"9bd97c622e842b24433fbbcd3d38c51f55137bb6844963e44c2e13169d3c483d","recoveryParam":1}}}}
+        
+        Method: GET
+        Url: /api/v1/wallet/transactions
+        Date: 2025-07-11
+        Time: 15:16:52
+        Status: 200
+        Duration: 12ms
+        Response: {"success":true,"statusCode":200,"data":{"8d80c899696f47c5a884cff6f2832fe9":{"id":"8d80c899696f47c5a884cff6f2832fe9","outputMap":{"Konrad":100,"0417f49535352fdbbc87ce3eaa5324a56b3ca15a3408bc69a8cd0d0c13fe5916da23361d7da8977a1781c0ad71bb11ce610e9adc36f3cebf58d04fe9dff76d3c03":900},"input":{"timestamp":1752239809596,"amount":1000,"address":"0417f49535352fdbbc87ce3eaa5324a56b3ca15a3408bc69a8cd0d0c13fe5916da23361d7da8977a1781c0ad71bb11ce610e9adc36f3cebf58d04fe9dff76d3c03","signature":{"r":"2b5472bf907b7b8ba472bcf00aa9952fda4752010f1154cb2a1c5713c76f16c6","s":"9bd97c622e842b24433fbbcd3d38c51f55137bb6844963e44c2e13169d3c483d","recoveryParam":1}}}}}
+        
+        Method: GET
+        Url: /api/v1/blocks
+        Date: 2025-07-11
+        Time: 15:18:28
+        Status: 200
+        Duration: 0ms
+        Response: {"success":true,"data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6},{"timestamp":1752238222771,"hash":"cf70a942d25b68aa57cf2d00390c427284f0ff508b5f12941120221cfbc92633","lastHash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","data":[{"id":"efffcd7238b848348d23a10e28f76f8e","outputMap":{"Matilda":100,"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":900},"input":{"timestamp":1752238162540,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"cb858228d21703c310cdc26e04d7ac80bb094ae4d6cfc556160c5ab5926a65ef","s":"69449bb5128913efbd44e29e6d2df93490445484f10ed451d56cee54de493b1a","recoveryParam":1}}},{"id":"63050bf43a4140199726a7a82ac8da06","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":7},{"timestamp":1752238868776,"hash":"07794f1c5f311584dd44b8e4a7a0d4561967d8365fc02fc7804dab4d1a79661c","lastHash":"cf70a942d25b68aa57cf2d00390c427284f0ff508b5f12941120221cfbc92633","data":[{"id":"cd5f6727984c422cb60ae89c6fbd4001","outputMap":{"Matilda":100,"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493":900},"input":{"timestamp":1752238863486,"amount":1000,"address":"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493","signature":{"r":"c2511d412a435fabaf4b077e3e506c3a9905615e25cbe35679f1f6a2656f1f50","s":"a62847d853858a7bcf8f9d8207ce21058948826d09bdee802dcfbeb715f4e2a1","recoveryParam":0}}},{"id":"d3e54ca05e8b4e86b3d681899804c004","outputMap":{"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493":50},"input":{"address":"#reward-address"}}],"nonce":4,"difficulty":1,"blockIndex":8},{"timestamp":1752239034815,"hash":"78e07550f4be577cf6a9c73b8c363067794abe30b2d3b8b0931051dab3a54545","lastHash":"07794f1c5f311584dd44b8e4a7a0d4561967d8365fc02fc7804dab4d1a79661c","data":[{"id":"fe706475b33f4294a5c92c1c409baef9","outputMap":{"Matilda":200,"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b":800},"input":{"timestamp":1752239029512,"amount":1000,"address":"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b","signature":{"r":"192ed1b014048b140eb4ec4577c5a30a8f2ace0bb84a1849f4b2dfbd4bbca047","s":"f83aaddddcec5fb35ecc158de73a5c7333c7a3cfc70e269bc51f3b8240770b3","recoveryParam":0}}},{"id":"e4d466261af24a5fab7f2ab9013b8920","outputMap":{"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":9},{"timestamp":1752239250555,"hash":"079857dec1f554933ea626b066cc84b6273ea312bb4711266463fb5389aa0ff8","lastHash":"78e07550f4be577cf6a9c73b8c363067794abe30b2d3b8b0931051dab3a54545","data":[{"id":"784edd72bcb14e0ca918a6d9040c33fa","outputMap":{"Matilda":200,"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca":700,"Johan":100},"input":{"timestamp":1752239239780,"amount":1000,"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","signature":{"r":"827cc49227cd521a9e2a168e30e5b17381eff2e243af36af9cc7cdf0e3f29610","s":"a14fee2ecb58b53c089100ac234aeea163e98dc5e0e1b71fd6213fc6ecaf50f8","recoveryParam":0}}},{"id":"a6e1b23ecb47447c98f7f450f85f0e6b","outputMap":{"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca":50},"input":{"address":"#reward-address"}}],"nonce":23,"difficulty":1,"blockIndex":10},{"timestamp":1752239396396,"hash":"6afe04fd803e1fdc4dc23434cd300034f2bc5bb648a284b506bc31d4c23ebec7","lastHash":"079857dec1f554933ea626b066cc84b6273ea312bb4711266463fb5389aa0ff8","data":[{"id":"cf9e936dd4844f498a3bc6626fb8481e","outputMap":{"Johan":200,"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":500,"Erik":100,"Mikael":100,"Konrad":100},"input":{"timestamp":1752239387281,"amount":1000,"address":"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6","signature":{"r":"f5c4158376200e0d73fada6cfce308e3b38c5dc84fcbc53ca32632ddf5714f0a","s":"567367194467f69d027b7faf1404f0cc266cb0013a5a4f9a89f91262b1d13b6c","recoveryParam":0}}},{"id":"94f38789529c4c29a541f252cb5cd37d","outputMap":{"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":11}]}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 15:23:04
+        Status: 400
+        Duration: 1ms
+        Response: {"success":false,"status":"Bad Request, missing information","statusCode":400,"message":"Data is required"}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 15:23:24
+        Status: 201
+        Duration: 37ms
+        Response: {"success":true,"message":"Block is added","data":[{"timestamp":1,"hash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","lastHash":"######","data":[],"nonce":0,"difficulty":3,"blockIndex":0},{"timestamp":1751919835533,"hash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","lastHash":"66b3d49240987c30f3259093e9adb7054c266406ccb09c8fedae4f3f9cfc6818","data":[{"id":"ae5a9cf5485d4263909b77ccc17c667c","outputMap":{"Matilda":200,"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":800},"input":{"timestamp":1751919833000,"amount":1000,"address":"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781","signature":{"r":"696c5f4edaaf6caba43a53eb758ea0c3327eb928b4f08847e5f6eebde759a062","s":"46c722acb4d8316a9ef3f0356833d3f961c5cd1917b5dddde64c073b1f31a10e","recoveryParam":0}}},{"id":"5e96413608fe4d50a6be6bdaf64fd08d","outputMap":{"0413bdb85e3b2db1e5f58c4feab512fc0ca341159c765c40cb4c05feabc6b73dbe0ad12a7c5329fe6a1182be055692cbf5e3f78e0147c157879b4e8af15a3f4781":50},"input":{"address":"#reward-address"}}],"nonce":155,"difficulty":2,"blockIndex":1},{"timestamp":1751920056418,"hash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","lastHash":"00e750df2fb84647639d9461f5fab3a7e05ee340495c27838d8710e318321338","data":[{"id":"5aac537ed6b44ae8a817cda3fa82d2dd","outputMap":{"Matilda":200,"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a":800},"input":{"timestamp":1751920048035,"amount":1000,"address":"04a5f4c8f045c2eb6d220a5caba3db2fa9b7b1af9803da7dd6e8db42887f048c1c34687a8b0a78d90f01691c378be4e3cb3d79f04f2ef77b7da69eca2d26c5230a","signature":{"r":"22339de5d4c5b49e83aec8cc863903e0518ce2d3ab108c2b6d211cca2cb923e6","s":"2d824dd6f9a2c10d6bfd783f127c953c1d54211bed531b3aeeafadac9fa0f2e9","recoveryParam":1}}},{"id":"9be57297fcbf484b970ab840c72331e8","outputMap":{"042bdbcbb8d834d232e8786a52a48a37e9a33df9cf2228a0fbd61c2e01ad39003c645780f8e6925c50418cd5dc9ae3f5773ab0e1cdaee1f022a19baa6b92748893":50},"input":{"address":"#reward-address"}}],"nonce":2,"difficulty":1,"blockIndex":2},{"timestamp":1751982126378,"hash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","lastHash":"0043bfa04c8013ee91f521f6291498e783c7a3d267bdae9db3f4b15ac8584c1b","data":[{"id":"7cb871a0817f4835aaf483da013293b1","outputMap":{"Matilda":100,"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8":900},"input":{"timestamp":1751982045927,"amount":1000,"address":"046bff59f7dd4854f30cb48fdc66e450e864fc013515e705cbe7741e323cbe84fc97f8ab330e18c1415c07ecbee1273d7bdd4aad2c262192d755deb1a9ef58e1a8","signature":{"r":"15a8809adc1d5102ed8b6bdc7f1fafe9f3dd247ad5f905865aee90c3ae7106f3","s":"915f3f4bbb899e07ca4bd45d1b96ce8d54c8db1f0fec7fff93a4360e19de9778","recoveryParam":0}}},{"id":"3abc6a79400f4b409e011a64afc0f7a2","outputMap":{"044325c2241b8bfc92e5ea0551fc9d9b3c018c9ee1cc070220af0dc7d5e0da589c003fea35e1240240d9d92ec59e517b6e13a4082c396de82ec489045d2514325e":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":3},{"timestamp":1751983018948,"hash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","lastHash":"b14f0bd9a79db1bc038d9689f3a2193835dbef07889281fad0762bac81a2edf4","data":[{"id":"8f54d018f2874b6cae34e75f6ca3c285","outputMap":{"Matilda":100,"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":900},"input":{"timestamp":1751982991088,"amount":1000,"address":"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1","signature":{"r":"64e339a4d5a53d1e64a3a055cf24172db7a6c46e226692dd1c947dad541b5f1e","s":"85c02896214f78158e199c4eb3591f7a62c32ff15f53aad8f2ffe4094e28f5c1","recoveryParam":0}}},{"id":"94d6764bef9c4e2f9157d378e07dc85a","outputMap":{"0471eabd7a7286d5d9d52b0f6135af923457211469c33840ba35789a67bcd997e4823b6fa072218257c075864142f1eaf0bdc3ae8d23bae0538a753758b2d180b1":50},"input":{"address":"#reward-address"}}],"nonce":28,"difficulty":1,"blockIndex":4},{"timestamp":1751983382417,"hash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","lastHash":"03dab87902b5a862ebddb84c11ff7f986e9effe380b8d32451775f5a0ff80cb9","data":[{"id":"808eeda0a9a44c9db7cf8635bb35eaea","outputMap":{"048108f2b5d0490b3e7c4ec320a4cea96ffd6d8ab65056c8dc09fde2837b8b64b22b9aa26cf8c4fd3e7fbd24e0efff3c1d3869b4786cedcc70e582e4078e82a418":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":5},{"timestamp":1752162477608,"hash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","lastHash":"aed39fbae7e5c8546b9e3b3b4fa102a0d7e1c62a62d3aa7106180c18c3f6c619","data":[{"id":"7e11c5edc5f74c0aabbad5b3f6a27b61","outputMap":{"04267d5879e976cf6193bf05f60aee5715e32b37aaac3c13a3bbad5995e578de0133e662bdb4d50041db12200d5cdb4b0b7179386b8feb2286fb2a2345dbd5be72":50},"input":{"address":"#reward-address"}}],"nonce":6,"difficulty":1,"blockIndex":6},{"timestamp":1752238222771,"hash":"cf70a942d25b68aa57cf2d00390c427284f0ff508b5f12941120221cfbc92633","lastHash":"0fd269191934e753766d6efd4123f90828e48c8666c1050646032f60368a2292","data":[{"id":"efffcd7238b848348d23a10e28f76f8e","outputMap":{"Matilda":100,"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":900},"input":{"timestamp":1752238162540,"amount":1000,"address":"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b","signature":{"r":"cb858228d21703c310cdc26e04d7ac80bb094ae4d6cfc556160c5ab5926a65ef","s":"69449bb5128913efbd44e29e6d2df93490445484f10ed451d56cee54de493b1a","recoveryParam":1}}},{"id":"63050bf43a4140199726a7a82ac8da06","outputMap":{"048dddbbe1663d6f4fb408cf99a47ad3baab1127df0caff999a13697d5f4a21c38e23602928a806c124e9666c6207f1072581bec86ceb8d517e15ce399fcf7c56b":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":7},{"timestamp":1752238868776,"hash":"07794f1c5f311584dd44b8e4a7a0d4561967d8365fc02fc7804dab4d1a79661c","lastHash":"cf70a942d25b68aa57cf2d00390c427284f0ff508b5f12941120221cfbc92633","data":[{"id":"cd5f6727984c422cb60ae89c6fbd4001","outputMap":{"Matilda":100,"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493":900},"input":{"timestamp":1752238863486,"amount":1000,"address":"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493","signature":{"r":"c2511d412a435fabaf4b077e3e506c3a9905615e25cbe35679f1f6a2656f1f50","s":"a62847d853858a7bcf8f9d8207ce21058948826d09bdee802dcfbeb715f4e2a1","recoveryParam":0}}},{"id":"d3e54ca05e8b4e86b3d681899804c004","outputMap":{"04d8d4ff7315da5fd7cef76546c73ec81fc024ac2677056bcbba4743ff7edc98008a833a7759c9b6cb1b274f88a6832f9d8c845fab02043411395b5b9084b05493":50},"input":{"address":"#reward-address"}}],"nonce":4,"difficulty":1,"blockIndex":8},{"timestamp":1752239034815,"hash":"78e07550f4be577cf6a9c73b8c363067794abe30b2d3b8b0931051dab3a54545","lastHash":"07794f1c5f311584dd44b8e4a7a0d4561967d8365fc02fc7804dab4d1a79661c","data":[{"id":"fe706475b33f4294a5c92c1c409baef9","outputMap":{"Matilda":200,"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b":800},"input":{"timestamp":1752239029512,"amount":1000,"address":"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b","signature":{"r":"192ed1b014048b140eb4ec4577c5a30a8f2ace0bb84a1849f4b2dfbd4bbca047","s":"f83aaddddcec5fb35ecc158de73a5c7333c7a3cfc70e269bc51f3b8240770b3","recoveryParam":0}}},{"id":"e4d466261af24a5fab7f2ab9013b8920","outputMap":{"0429a9db2c74ecebb5f9535a16427adfc9e4c76b5079be7eb6c8fdd59e30c56896a0d1d9c5cc675f88f2f9ff10a9a756237a7be54ae49f70f028f6139083a9a67b":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":9},{"timestamp":1752239250555,"hash":"079857dec1f554933ea626b066cc84b6273ea312bb4711266463fb5389aa0ff8","lastHash":"78e07550f4be577cf6a9c73b8c363067794abe30b2d3b8b0931051dab3a54545","data":[{"id":"784edd72bcb14e0ca918a6d9040c33fa","outputMap":{"Matilda":200,"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca":700,"Johan":100},"input":{"timestamp":1752239239780,"amount":1000,"address":"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca","signature":{"r":"827cc49227cd521a9e2a168e30e5b17381eff2e243af36af9cc7cdf0e3f29610","s":"a14fee2ecb58b53c089100ac234aeea163e98dc5e0e1b71fd6213fc6ecaf50f8","recoveryParam":0}}},{"id":"a6e1b23ecb47447c98f7f450f85f0e6b","outputMap":{"04297facc4dcbfd2b0737b3cc834399193718f2158109d90ba2e51306e76c3fefb938391b37d97e35c82d5861b28b1c07b291875abac56f333db6ef1c18efbb4ca":50},"input":{"address":"#reward-address"}}],"nonce":23,"difficulty":1,"blockIndex":10},{"timestamp":1752239396396,"hash":"6afe04fd803e1fdc4dc23434cd300034f2bc5bb648a284b506bc31d4c23ebec7","lastHash":"079857dec1f554933ea626b066cc84b6273ea312bb4711266463fb5389aa0ff8","data":[{"id":"cf9e936dd4844f498a3bc6626fb8481e","outputMap":{"Johan":200,"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":500,"Erik":100,"Mikael":100,"Konrad":100},"input":{"timestamp":1752239387281,"amount":1000,"address":"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6","signature":{"r":"f5c4158376200e0d73fada6cfce308e3b38c5dc84fcbc53ca32632ddf5714f0a","s":"567367194467f69d027b7faf1404f0cc266cb0013a5a4f9a89f91262b1d13b6c","recoveryParam":0}}},{"id":"94f38789529c4c29a541f252cb5cd37d","outputMap":{"0492a1c9a6cb67aeccf579ce567fec6a7ea899effbb78ca62d5369e724d44831bd67ba35d1b5e191e9f21b1ef65f5c11d10381c0bf108aa54333a883d8050863d6":50},"input":{"address":"#reward-address"}}],"nonce":1,"difficulty":0,"blockIndex":11},{"timestamp":1752240204042,"hash":"06974d9167bc878da8ba2ae40d1d84cf657f9f5fa6acc288b983ff6b67748f77","lastHash":"6afe04fd803e1fdc4dc23434cd300034f2bc5bb648a284b506bc31d4c23ebec7","data":"HEEYOOOO","nonce":3,"difficulty":1,"blockIndex":12}]}
+        
+        Method: POST
+        Url: /api/v1/blocks/mine
+        Date: 2025-07-11
+        Time: 15:23:51
+        Status: 201
+        Duration: 29ms
+        Response: {"success":true,"message":"Block is added","data":{"timestamp":1752240231018,"hash":"da97e044e156db85ee81378597836d3501cca9d860b2c07844bf04a8612f81fc","lastHash":"06974d9167bc878da8ba2ae40d1d84cf657f9f5fa6acc288b983ff6b67748f77","data":"HEEYOOOO","nonce":1,"difficulty":0,"blockIndex":13}}
+        

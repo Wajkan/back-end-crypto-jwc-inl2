@@ -99,6 +99,7 @@ export default class BlockService {
             }
 
             return true;
+            
         } catch (error) {
 
             throw new Error(`BlockService: ${error.message}`);

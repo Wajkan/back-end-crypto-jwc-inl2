@@ -12,6 +12,9 @@ import transactionRoutes from './routes/transaction-routes.mjs';
 import userRoutes from './routes/user-routes.mjs';
 import authRouter from './routes/auth-routes.mjs';
 
+import AppError from "./models/global/appError.mjs";
+import errorHandler from "./middleware/errorHandler.mjs";
+
 
 await connectDatabase();
 
@@ -41,6 +44,12 @@ app.use ( '/api/v1/wallet', transactionRoutes );
 app.use ( '/api/v1/users', userRoutes );
 
 app.use ('/api/v1/auth', authRouter);
+
+app.all('*', (req, res, next) => {
+  next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
+});
+
+app.use(errorHandler);
 
 const synchronize = async () => {
 

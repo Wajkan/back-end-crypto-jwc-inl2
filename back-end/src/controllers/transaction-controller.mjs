@@ -1,10 +1,18 @@
 import { transactionPool, wallet, server, blockchain } from "../server.mjs";
 import Miner from "../models/miner/Miner.mjs";
 import Wallet from "../models/wallet/Wallet.mjs";
+import AppError from "../models/global/appError.mjs";
+import { catchErrorAsync } from "../utilities/catchErrorAsync.mjs";
 
-export const addTransaction = ( req, res ) => {
+export const addTransaction = ( req, res, next ) => {
 
     const { amount, recipient } = req.body;
+
+    if (!amount || !recipient) {
+
+        return next(new AppError('Amount and recipient are required', 400));
+
+    }
 
     let transaction = transactionPool.transactionExists({
 
@@ -32,9 +40,7 @@ export const addTransaction = ( req, res ) => {
 
     } catch (error) {
 
-        return res
-        .status( 400 )
-        .json ({ success: true, statusCode: 400, error: error.message });
+       return next(new AppError(error.message, 400));
 
     }
 
@@ -46,30 +52,56 @@ export const addTransaction = ( req, res ) => {
 
 };
 
-export const getWalletInfo = ( req, res ) => {
+export const getWalletInfo = ( req, res, next ) => {
 
-    const address = wallet.publicKey;
+    try {
 
-    const balance = Wallet.calculateBalance({
+        const address = wallet.publicKey;
+
+        const balance = Wallet.calculateBalance({
 
         chain: blockchain.chain,
         address: address
 
-    });
+         });
 
-    res.status( 200 )
-    .json({success: true, statusCode: 200, data: { address: address, balance: balance }});
+         res.status( 200 )
+        .json({success: true, statusCode: 200, data: { address: address, balance: balance }});
+        
+    } catch (error) {
+
+        next(error);
+
+    }
+
+
 
 }
 
-export const listAllTransactions = ( req, res ) => {
+export const listAllTransactions = ( req, res, next ) => {
 
-    res.status( 200 )
-    .json({success: true, statusCode: 200, data: transactionPool.transactionMap});
+    try {
+
+        res.status( 200 )
+        .json({success: true, statusCode: 200, data: transactionPool.transactionMap});
+        
+    } catch (error) {
+        
+        next(error);
+
+    }
 
 }
 
-export const mineTransactions = async ( req, res ) => {
+export const mineTransactions = catchErrorAsync (async ( req, res, next ) => {
+
+    const validTransactions = transactionPool.validateTransactions();
+
+    if (validTransactions.length === 0) {
+
+        return next(new AppError('No transactions to mine', 400));
+
+    }
 
     const miner = new Miner({
 
@@ -82,7 +114,12 @@ export const mineTransactions = async ( req, res ) => {
 
     await miner.mineTransactions();
 
-    res.status( 200 )
-    .json({success: true, statusCode: 200, data: 'You mined a block!'});
 
-}
+    res.status( 200 )
+    .json({success: true, statusCode: 200, message: 'You mined a block!', data: {
+
+        message: 'Congratulations, you succesfully mined a block!',
+        blockHash: blockchain.chain.at(-1).hash
+
+    }})
+});
