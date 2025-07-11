@@ -207,3 +207,835 @@
     Message: Data is required
 
     
+    Method: GET 
+    Url: /api/blocks 
+    Date: 2025-07-11 
+    Time: 15:26:21 
+    Success: false  
+    Message: Can't find /api/blocks on this server!
+
+    
+    Method: GET 
+    Url: /api/blocks 
+    Date: 2025-07-11 
+    Time: 15:27:13 
+    Success: false  
+    Message: Can't find /api/blocks on this server!
+
+    
+    Method: GET 
+    Url: /api/blocks 
+    Date: 2025-07-11 
+    Time: 15:28:18 
+    Success: false  
+    Message: Can't find /api/blocks on this server!
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:31:28 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:31:45 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:32:25 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:35:35 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:36:01 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:36:29 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:36:50 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:37:19 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:41:24 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:41:24 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:41:49 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:41:54 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:42:02 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:42:15 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:42:38 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:43:03 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:43:03 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:43:33 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:44:02 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:45:21 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:47:00 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:48:34 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:49:15 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:49:22 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:49:23 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:49:24 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:57:47 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 15:57:58 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 15:59:34 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 15:59:41 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 15:59:44 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 15:59:45 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 15:59:45 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 15:59:46 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 15:59:46 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 16:00:00 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/info 
+    Date: 2025-07-11 
+    Time: 16:00:01 
+    Success: false  
+    Message: Cannot read properties of undefined (reading 'address')
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:02:36 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:02:58 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:03:06 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:06:51 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:07:24 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:07:49 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:08:37 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:08:39 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:08:39 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:10:33 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:11:15 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:13:12 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:14:14 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:16:36 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:16:56 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:21:30 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:21:43 
+    Success: false  
+    Message: Cannot convert undefined or null to object
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:22:50 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:33:12 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:34:14 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:35:11 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:37:37 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:46:23 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:46:23 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 16:48:20 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 16:48:44 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 16:49:31 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 16:49:32 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:50:03 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:50:03 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 16:50:19 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 16:50:40 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:51:36 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:51:36 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 16:51:54 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:53:01 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:53:01 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:54:39 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:54:39 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 16:56:39 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:00:28 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:02:35 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:04:59 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:05:09 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-11 
+    Time: 17:05:20 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:06:45 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:07:07 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:09:16 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:10:53 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:10:53 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:11:47 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:11:47 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:22:40 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:22:40 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:23:05 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:23:05 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:25:00 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:25:16 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:26:31 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:26:31 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:27:00 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:27:00 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: POST 
+    Url: /api/v1/users 
+    Date: 2025-07-11 
+    Time: 17:37:14 
+    Success: false  
+    Message: E11000 duplicate key error collection: blockchain.users index: email_1 dup key: { email: "wiklund.karl@gmail.com" }
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-11 
+    Time: 17:38:20 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    

@@ -16,7 +16,9 @@ export default class Transaction {
 
         const { input: { address, amount, signature }, outputMap } = transaction;
 
-        const total = Object.values(outputMap).reduce(( sum, amount ) => sum + amount); 
+        const total = Object.values(outputMap).reduce((sum, amount) => {
+        return sum + Number(amount);
+    }, 0);
 
         if ( amount !== total ) return false;
 

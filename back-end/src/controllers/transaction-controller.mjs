@@ -4,15 +4,9 @@ import Wallet from "../models/wallet/Wallet.mjs";
 import AppError from "../models/global/appError.mjs";
 import { catchErrorAsync } from "../utilities/catchErrorAsync.mjs";
 
-export const addTransaction = ( req, res, next ) => {
+export const addTransaction = ( req, res ) => {
 
     const { amount, recipient } = req.body;
-
-    if (!amount || !recipient) {
-
-        return next(new AppError('Amount and recipient are required', 400));
-
-    }
 
     let transaction = transactionPool.transactionExists({
 
@@ -40,7 +34,8 @@ export const addTransaction = ( req, res, next ) => {
 
     } catch (error) {
 
-       return next(new AppError(error.message, 400));
+        return res.status( 400 )
+        .json ({ success: false, statusCode: 400, error: error.message });
 
     }
 

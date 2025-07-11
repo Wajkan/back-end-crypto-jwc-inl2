@@ -53,7 +53,7 @@ app.use(errorHandler);
 
 const synchronize = async () => {
 
-    let response = await fetch (`${ROOT_NODE}/api/blocks`);
+    let response = await fetch (`${ROOT_NODE}/api/v1/blocks`);
 
     if (response) {
 
@@ -63,7 +63,7 @@ const synchronize = async () => {
 
     };
 
-    response = await fetch(`${ROOT_NODE}/api/wallet/transactions`);
+    response = await fetch(`${ROOT_NODE}/api/v1/wallet/transactions`);
 
     if (response) {
 
