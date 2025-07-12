@@ -39,21 +39,22 @@ export default class Transaction {
 
     }
 
+
     update ({ sender, recipient, amount }) {
 
         if ( amount > this.outputMap [ sender.publicKey ]) throw new Error ('Not enough funds!');
 
         if (!this.outputMap[ recipient ]) {
 
-            this.outputMap[ recipient ] = amount;
+            this.outputMap[ recipient ] = Number(amount);
 
         } else {
 
-            this.outputMap[ recipient ] = this.outputMap[recipient] + amount;
+            this.outputMap[ recipient ] = Number(this.outputMap[recipient]) + Number(amount);
 
         }
 
-        this.outputMap[ sender.publicKey ] = this.outputMap[ sender.publicKey ] - amount;
+        this.outputMap[ sender.publicKey ] = Number(this.outputMap[ sender.publicKey ]) - Number(amount);
 
         this.input = this.createInput({ sender, outputMap: this.outputMap });
 

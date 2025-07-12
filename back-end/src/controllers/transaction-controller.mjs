@@ -92,6 +92,8 @@ export const mineTransactions = catchErrorAsync (async ( req, res, next ) => {
 
     const validTransactions = transactionPool.validateTransactions();
 
+    console.log('VALID', validTransactions);
+
     if (validTransactions.length === 0) {
 
         return next(new AppError('No transactions to mine', 400));

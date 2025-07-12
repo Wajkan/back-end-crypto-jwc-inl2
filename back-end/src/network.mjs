@@ -56,39 +56,49 @@ export default class Network {
 
     }
 
-    handleMessage ( channel, message ) {
+handleMessage() {
 
-       console.log('✅ PubNub message handler is up and running!');
+    console.log('✅ PubNub message handler is up and running!');
 
-        return {
+    return {
+        
+    message: ( msgObject ) => {
 
-            message: ( msgObject ) => {
+        const { channel, message } = msgObject;
 
-                const { channel, message } = msgObject;
-                const msg = JSON.parse ( message );
+        const msg = JSON.parse(message);
 
-                console.log(`Message recived on channel: ${channel} message: ${message}`);
+        console.log(
+          `Meddelande har mottagits på kanal: ${channel}, meddelandet är ${message}`
+        );
 
-                switch ( channel ) {
+        switch (channel) {
 
-                    case CHANNELS.BLOCKCHAIN:
-                        this.blockchain.replaceChain ( msg, () => {
+          case CHANNELS.BLOCKCHAIN:
+            this.blockchain.replaceChain(msg, () => {
 
-                            this.transactionPool.clearBlockTransactions({ chain: msg });
+              this.transactionPool.clearBlockTransactions({ chain: msg });
 
-                        } );
-                        break;
+            });
+            break;
 
-                   case CHANNELS.TRANSACTION:
-                        this.transactionPool.addTransaction(msg);
-                        console.log(`✅ Added/Updated transaction ${msg.id} to pool`);
-                         break;
-                    default:
-                        return;
-                }
+          case CHANNELS.TRANSACTION:
+            if (
+              !this.transactionPool.transactionExists({
+                address: this.wallet.publicKey,
+              })
+            ) {
+
+              this.transactionPool.addTransaction(msg);
+              
             }
+            break;
+          default:
+            return;
         }
-    }
+      },
+    };
+  }
 
     publish({ channel, message }) {
 
