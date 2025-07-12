@@ -26,7 +26,7 @@ export default class Wallet {
 
         }
 
-        if (amount > this.balance) throw new Error ('Not enough funds!');
+        if (amount > this.balance) { throw new Error ('Not enough funds!') };
 
         return new Transaction ({ sender: this, recipient, amount })
 

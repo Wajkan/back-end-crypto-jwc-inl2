@@ -36,7 +36,7 @@ export default class BlockService {
 
             }
 
-            console.log(`Chain loaded from database, number of blocks: ${blocks.length}`);
+            console.log(`✅ Chain loaded from database, number of blocks: ${blocks.length}`);
 
             return blocks.map(block =>({
 
@@ -99,6 +99,7 @@ export default class BlockService {
             }
 
             return true;
+            
         } catch (error) {
 
             throw new Error(`BlockService: ${error.message}`);

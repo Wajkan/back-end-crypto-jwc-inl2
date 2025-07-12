@@ -39,7 +39,8 @@ export default class TransactionPool {
 
     replaceMap (transactionMap ) {
 
-        this.transactionMap = transactionMap;
+            this.transactionMap = transactionMap || {};
+
 
     }
 
