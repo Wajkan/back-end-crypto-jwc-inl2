@@ -58,7 +58,7 @@ export default class Network {
 
     handleMessage ( channel, message ) {
 
-       console.log('PubNub message handler is up and running!');
+       console.log('✅ PubNub message handler is up and running!');
 
         return {
 
