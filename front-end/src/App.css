@@ -1,0 +1,674 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Home and Auth styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.auth-btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: 2px solid #646cff;
+  background-color: transparent;
+  color: #646cff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #646cff;
+  color: white;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  color: inherit;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.auth-container button[type="submit"] {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.25s;
+}
+
+.auth-container button[type="submit"]:hover:not(:disabled) {
+  background-color: #535bf2;
+}
+
+.auth-container button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.back-btn {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #646cff;
+  border: 1px solid #646cff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.back-btn:hover {
+  background-color: #1a1a1a;
+  border-color: #535bf2;
+}
+
+/* ChainExplorer styles */
+.chain-explorer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.explorer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #444;
+}
+
+.logout-btn {
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.explorer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.component-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.component-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #646cff;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+/* Wallet Info styles */
+.wallet-info p {
+  margin: 0.5rem 0;
+}
+
+.wallet-address {
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  word-break: break-all;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #444;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+}
+
+.error-message p {
+  margin-bottom: 1rem;
+}
+
+.refresh-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.refresh-btn:hover {
+  background-color: #218838;
+}
+
+/* Mining styles */
+.mining-section {
+  text-align: center;
+}
+
+.mine-btn {
+  padding: 1rem 2rem;
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin-bottom: 1rem;
+}
+
+.mine-btn:hover:not(:disabled) {
+  background-color: #e0a800;
+  transform: translateY(-2px);
+}
+
+.mine-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.mine-btn.mining {
+  animation: pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  from { opacity: 0.6; }
+  to { opacity: 1; }
+}
+
+.mining-error {
+  background-color: rgba(220, 53, 69, 0.1);
+  border: 1px solid #dc3545;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #dc3545;
+  text-align: center;
+}
+
+.mining-result {
+  text-align: left;
+  background-color: rgba(40, 167, 69, 0.1);
+  border: 1px solid #28a745;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.mining-result h4 {
+  margin-top: 0;
+  color: #28a745;
+  text-align: center;
+}
+
+.mining-info {
+  text-align: left;
+  background-color: rgba(100, 108, 255, 0.1);
+  border: 1px solid #646cff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.mining-info p {
+  margin: 0.5rem 0;
+}
+
+.mining-info ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.mining-info li {
+  margin: 0.3rem 0;
+}
+
+.mining-info em {
+  color: #888;
+  font-style: italic;
+}
+
+/* Transaction Pool styles */
+.transaction-pool {
+  background-color: rgba(100, 108, 255, 0.1);
+  border: 1px solid #646cff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.transaction-pool h4 {
+  margin-top: 0;
+  color: #646cff;
+}
+
+.pool-error {
+  background-color: rgba(220, 53, 69, 0.1);
+  border: 1px solid #dc3545;
+  border-radius: 6px;
+  padding: 0.8rem;
+  color: #dc3545;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.pool-content {
+  margin-top: 1rem;
+}
+
+.empty-pool {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.pool-transactions {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 0.5rem;
+}
+
+.pool-transaction {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.pool-transaction p {
+  margin: 0.5rem 0 0.2rem 0;
+  font-weight: bold;
+}
+
+.json-display {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 0.8rem;
+  margin: 0.5rem 0 1rem 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  color: #ddd;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+@media (prefers-color-scheme: light) {
+  .transaction-pool {
+    background-color: rgba(100, 108, 255, 0.1);
+    border-color: #646cff;
+  }
+  
+  .pool-error {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-color: #dc3545;
+  }
+  
+  .pool-transaction {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-color: #ddd;
+  }
+  
+  .json-display {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: #ddd;
+    color: #333;
+  }
+}
+
+/* Transaction styles */
+.transaction-error {
+  background-color: rgba(220, 53, 69, 0.1);
+  border: 1px solid #dc3545;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #dc3545;
+  text-align: center;
+}
+
+.transaction-error.insufficient-funds {
+  background-color: rgba(255, 193, 7, 0.1);
+  border-color: #ffc107;
+  color: #856404;
+}
+
+.transaction-error small {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.transaction-success {
+  background-color: rgba(40, 167, 69, 0.1);
+  border: 1px solid #28a745;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.transaction-success h4 {
+  margin-top: 0;
+  color: #28a745;
+  text-align: center;
+}
+
+.transaction-details {
+  margin: 1rem 0;
+}
+
+.transaction-details p {
+  margin: 0.5rem 0 0.2rem 0;
+  font-weight: bold;
+}
+
+.transaction-note {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin: 1rem 0 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+}
+
+@media (prefers-color-scheme: light) {
+  .transaction-error {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-color: #dc3545;
+  }
+  
+  .transaction-error.insufficient-funds {
+    background-color: rgba(255, 193, 7, 0.1);
+    border-color: #ffc107;
+    color: #856404;
+  }
+  
+  .transaction-success {
+    background-color: rgba(40, 167, 69, 0.1);
+    border-color: #28a745;
+  }
+  
+  .transaction-note {
+    border-top-color: #ddd;
+  }
+}
+
+/* Blockchain Data styles */
+.blocks-list {
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 1rem;
+}
+
+.block-item {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.block-header h4 {
+  margin: 0;
+  color: #646cff;
+}
+
+.difficulty-badge {
+  background-color: #ffc107;
+  color: #212529;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.block-details p {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.full-hash {
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  color: #888;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #444;
+  margin: 0.2rem 0 0.8rem 0;
+  word-break: break-all;
+  line-height: 1.4;
+}
+
+.transactions {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+}
+
+.transactions h5 {
+  margin: 0 0 0.5rem 0;
+  color: #28a745;
+  font-size: 0.9rem;
+}
+
+.transaction-item {
+  background-color: rgba(40, 167, 69, 0.1);
+  border: 1px solid #28a745;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.transaction-item p {
+  margin: 0.5rem 0 0.2rem 0;
+  font-weight: bold;
+}
+
+.reward-tx {
+  color: #ffc107;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.transaction-details {
+  margin-top: 0.5rem;
+}
+
+.signature-section {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+  border: 1px solid #555;
+}
+
+.signature-details {
+  margin-top: 0.5rem;
+}
+
+.outputs {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: rgba(100, 108, 255, 0.1);
+  border-radius: 4px;
+  border: 1px solid #646cff;
+}
+
+.output-item {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+  border: 1px solid #444;
+}
+
+@media (prefers-color-scheme: light) {
+  .block-item {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-color: #ddd;
+  }
+  
+  .block-header {
+    border-bottom-color: #ddd;
+  }
+  
+  .full-hash {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-color: #ddd;
+    color: #333;
+  }
+  
+  .transactions {
+    border-top-color: #ddd;
+  }
+  
+  .transaction-item {
+    background-color: rgba(40, 167, 69, 0.1);
+    border-color: #28a745;
+  }
+  
+  .signature-section {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-color: #ddd;
+  }
+  
+  .outputs {
+    background-color: rgba(100, 108, 255, 0.1);
+    border-color: #646cff;
+  }
+  
+  .output-item {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: #ddd;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .block-item {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-color: #ddd;
+  }
+  
+  .block-header {
+    border-bottom-color: #ddd;
+  }
+  
+  .transactions {
+    border-top-color: #ddd;
+  }
+  
+  .transaction-item {
+    background-color: rgba(40, 167, 69, 0.1);
+    border-color: #28a745;
+  }
+  
+  .output-item {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .form-group input {
+    background-color: #f9f9f9;
+    border-color: #ccc;
+  }
+  
+  .back-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .component-card {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-color: #ddd;
+  }
+  
+  .component-card h3 {
+    border-bottom-color: #ddd;
+  }
+  
+  .block-item {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-color: #ddd;
+  }
+}

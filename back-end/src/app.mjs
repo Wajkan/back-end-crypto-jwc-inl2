@@ -12,26 +12,26 @@ import { logger } from './middleware/logger.mjs';
 
 dotenv.config({ path: './config/config.env' });
 
-const limiter = rateLimit({
+// const limiter = rateLimit({
 
-    max: 100,
-    windowMs: 60 * 60 * 1000,
-    message: 'Nice try and move on...'
+//     max: 100,
+//     windowMs: 60 * 60 * 1000,
+//     message: 'Nice try and move on...'
 
-})
+// })
 
 const app = express ();
 
 app.use(cors({
 
-    origin: ['http://localhost:5500','http://localhost:3000'],
+    origin: ['http://localhost:5500','http://localhost:3000','http://localhost:5173'],
     methods: 'GET,POST,DELETE'
 
 }));
 
 app.use(helmet());
 
-app.use('/api/', limiter);
+// app.use('/api/', limiter);
 
 app.use(mongoSanitizer());
 
