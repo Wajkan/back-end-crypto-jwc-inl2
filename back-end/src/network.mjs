@@ -4,7 +4,8 @@ const CHANNELS = {
 
     TEST: 'TEST',
     BLOCKCHAIN: 'SMARTCHAIN',
-    TRANSACTION: 'TRANSACTION'
+    TRANSACTION: 'TRANSACTION',
+    NEWBLOCK: 'NEWBLOCK'
 
 };
 
@@ -34,6 +35,15 @@ export default class Network {
 
     }
 
+    broadcastBlock(block) {
+    this.publish({
+
+        channel: CHANNELS.NEWBLOCK,
+        message: JSON.stringify([block])
+
+    });
+}
+
     broadcastChain () {
 
         this.publish({
@@ -56,7 +66,7 @@ export default class Network {
 
     }
 
-handleMessage() {
+    handleMessage() {
 
     console.log('✅ PubNub message handler is up and running!');
 
@@ -81,6 +91,12 @@ handleMessage() {
 
             });
             break;
+
+            case CHANNELS.NEWBLOCK:
+            console.log('📦 Received new block:', msg[0].hash);
+            this.blockchain.chain.push(msg[0]);
+            this.transactionPool.clearBlockTransactions({ chain: msg });
+            break; 
 
           case CHANNELS.TRANSACTION:
             if (

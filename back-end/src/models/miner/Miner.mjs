@@ -21,7 +21,7 @@ export default class Miner {
 
         await this.blockchain.addBlock({ data: validTransactions });
 
-        this.server.broadcastChain();
+        this.server.broadcastBlock(this.blockchain.chain.at(-1));
 
         this.transactionPool.clearTransactions();
 
