@@ -2679,3 +2679,171 @@
     Message: Must be logged in to acces this information
 
     
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-13 
+    Time: 18:48:00 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-13 
+    Time: 18:50:13 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 18:57:08 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 18:57:17 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 18:58:55 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:04:16 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:04:30 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:12:51 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:32 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:32 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:32 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:47 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:47 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:47 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:58 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:13:58 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:17:04 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:20:26 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions/mine 
+    Date: 2025-07-13 
+    Time: 19:29:58 
+    Success: false  
+    Message: No transactions to mine
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:41:38 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    
+    Method: GET 
+    Url: /api/v1/wallet/transactions 
+    Date: 2025-07-13 
+    Time: 19:41:38 
+    Success: false  
+    Message: Must be logged in to acces this information
+
+    

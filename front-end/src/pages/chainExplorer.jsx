@@ -2,6 +2,7 @@ import WalletInfo from '../components/walletInfo'
 import SendTransaction from '../components/sendTransaction'
 import MineTransactions from '../components/mineTransactions'
 import BlockchainData from '../components/blockchainData'
+import TransactionPool from '../components/transactionPool'
 
 function ChainExplorer({ onLogout }) {
   return (
@@ -16,6 +17,7 @@ function ChainExplorer({ onLogout }) {
       <div className="explorer-grid">
         <WalletInfo />
         <SendTransaction />
+        <TransactionPool />
         <MineTransactions />
         <BlockchainData />
       </div>

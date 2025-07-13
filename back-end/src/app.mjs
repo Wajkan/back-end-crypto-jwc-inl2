@@ -12,13 +12,13 @@ import { logger } from './middleware/logger.mjs';
 
 dotenv.config({ path: './config/config.env' });
 
-const limiter = rateLimit({
+// const limiter = rateLimit({
 
-    max: 100,
-    windowMs: 60 * 60 * 1000,
-    message: 'Nice try and move on...'
+//     max: 100,
+//     windowMs: 60 * 60 * 1000,
+//     message: 'Nice try and move on...'
 
-})
+// })
 
 const app = express ();
 
@@ -31,7 +31,7 @@ app.use(cors({
 
 app.use(helmet());
 
-app.use('/api/', limiter);
+// app.use('/api/', limiter);
 
 app.use(mongoSanitizer());
 
