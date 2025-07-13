@@ -8,6 +8,13 @@ export const addTransaction = ( req, res ) => {
 
     const { amount, recipient } = req.body;
 
+    wallet.balance = Wallet.calculateBalance({
+
+        chain: blockchain.chain,
+        address: wallet.publicKey
+
+    });
+
     let transaction = transactionPool.transactionExists({
 
         address: wallet.publicKey,

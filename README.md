@@ -14,9 +14,6 @@ strukturen och gjort fetch anropen i ett samlat dokument men jag känner personl
 det ska göras och jag vet vad som ska förbättras. Men jag känner också att jag kan pilla med detta i 
 någon vecka till. 
 
-Transaktionerna och wallet balansen fungerar endast efter en mining ,  när jag sedan gör en ny transaktion börjar den räkna ifrån 1000 igen och plånboken uppdateras.. men jag har ingen logik för det
-i backend heller att det sparas per användare... jag kommer sitta med detta framöver såklar och försöka 
-få det att fungera. 
 
 Men nu fungerar iallafall, login , syncronisering , skriver till databas, central felhantering , loggning osv.. det blev mycket. Min request log låg på 12000, error: 3000  rader efter implementering :D. 
 

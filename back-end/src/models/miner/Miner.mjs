@@ -1,4 +1,5 @@
 import Transaction from "../wallet/Transaction.mjs";
+import Wallet from "../wallet/Wallet.mjs";
 
 export default class Miner {
 
@@ -24,6 +25,13 @@ export default class Miner {
         this.server.broadcastChain();
 
         this.transactionPool.clearTransactions();
+
+        this.wallet.balance = Wallet.calculateBalance({
+        
+            chain: this.blockchain.chain,
+            address: this.wallet.publicKey
+        
+        });
 
         return validTransactions;
 
