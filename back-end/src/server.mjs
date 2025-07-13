@@ -12,6 +12,9 @@ import transactionRoutes from './routes/transaction-routes.mjs';
 import userRoutes from './routes/user-routes.mjs';
 import authRouter from './routes/auth-routes.mjs';
 
+import AppError from "./models/global/appError.mjs";
+import errorHandler from "./middleware/errorHandler.mjs";
+
 
 await connectDatabase();
 
@@ -42,9 +45,15 @@ app.use ( '/api/v1/users', userRoutes );
 
 app.use ('/api/v1/auth', authRouter);
 
+app.all('*', (req, res, next) => {
+  next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
+});
+
+app.use(errorHandler);
+
 const synchronize = async () => {
 
-    let response = await fetch (`${ROOT_NODE}/api/blocks`);
+    let response = await fetch (`${ROOT_NODE}/api/v1/blocks`);
 
     if (response) {
 
@@ -54,7 +63,7 @@ const synchronize = async () => {
 
     };
 
-    response = await fetch(`${ROOT_NODE}/api/wallet/transactions`);
+    response = await fetch(`${ROOT_NODE}/api/v1/wallet/transactions`);
 
     if (response) {
 

@@ -100,29 +100,39 @@ export default class Blockchain {
 
 
 async initializeFromDataBase() {
+
     try {
+
         console.log('🔄 Initializing blockchain from database...');
+
         const loadSavedChain = await this.blockService.loadChainFromDatabase();
 
         if (loadSavedChain && loadSavedChain.length > 0) {
-            console.log('📦 Found existing chain in database');
+
+            console.log('✅ Found existing chain in database');
             
             if (Blockchain.isValid(loadSavedChain)) {
+
                 this.chain = loadSavedChain;
                 console.log(`✅ Successfully loaded: ${loadSavedChain.length} blocks from database`);
-                console.log(`📊 Latest block hash: ${this.chain[this.chain.length - 1].hash}`);
+                console.log(`✅ Latest block hash: ${this.chain[this.chain.length - 1].hash}`);
+
             } else {
+
                 console.log('❌ Invalid chain in database, lets start fresh!');
+
             }
 
         } else {
-            console.log('📦 No chain found, booting with genesis only');
+
+            console.log('❌  No chain found, booting with genesis only');
             
             try {
 
                 const genesisBlock = Block.genesis();
                 
                 const savedGenesis = await this.blockService.saveBlockToDatabase(genesisBlock, 0);
+                
                 console.log('✅ Genesis block saved to database:', savedGenesis._id);
                 
             } catch (saveError) {
@@ -130,12 +140,13 @@ async initializeFromDataBase() {
                 console.error('❌ Failed to save genesis block:', saveError.message);
 
             }
+
         }
 
     } catch (error) {
 
         console.error('❌ Could not initialize chain from database:', error.message);
-        console.log('📦 Starting with in-memory genesis block only');
+        console.log('✅ Starting with in-memory genesis block only');
         
     }
 }

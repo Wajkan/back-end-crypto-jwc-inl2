@@ -2,20 +2,24 @@ import BlockModel from '../models/schemas/blockModel.mjs';
 
 export default class BlockRepository {
 
-    async saveBlock( blockData ) {
+async saveBlock( blockData ) {
+    try {
 
-        try {
-
-            const block = new BlockModel(blockData);
-            return await block.save();
-            
-        } catch (error) {
-
-            throw new Error(`Error saving block: ${error.message}`); 
-            
-        }
-
-    };
+        const block = await BlockModel.findOneAndUpdate(
+            { hash: blockData.hash }, 
+            blockData, 
+            { 
+                upsert: true, 
+                new: true 
+            }
+        );
+        
+        return block; 
+        
+    } catch (error) {
+        throw new Error(`Error saving block: ${error.message}`); 
+    }
+}
 
     async getAllBlocks() {
 
