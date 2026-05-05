@@ -58,12 +58,15 @@ SEC_KEY=<pubnub secret key>
 USER_ID=<pubnub user id>
 
 // install dependencies
+
 npm install
 
 // run
+
 npm run dev
 
 // run nodes
+
 npm run dev-node
 npm run dev-node
 npm run dev-node
@@ -72,6 +75,7 @@ npm run dev-node
 Frontend: 
 
 npm install 
+
 npm run dev 
 
 
