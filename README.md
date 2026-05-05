@@ -1,48 +1,57 @@
-# back-end-crypto-jwc-inl2
+This project is a backend focused, full-stack blockchain application, built with Node.js and React. 
 
-Hej Mikael! 
+The project simulates a cryptocurrency network where multiple peer nodes run simultaneously, synchronize their chains via PubNub, authenticate users with JWT, and persist data to MongoDB.
 
-Överkomplicerade saker men mycket lärdom,    försökte skicka ut blocken separat via en egen CHANNEL
-eftersom min blockkedja var för stor att broadcasta komplett via pubnub, men då skrevs blocken in 
-felaktigt istället och jag fick dubbla block och deffekt blockkejda vid uppstart och noderna började
-starta egna kedjor istället. Har även haft mycket strul med pöölen osv osv... 
-
-Jag gick tillbaka till en enklare struktur och kedjan fungerar nu upp till ett visst antal block.
-
-Jag förstår react koden , men som du säkert ser är det mesta promtat ,  jag har inte heller delat upp
-strukturen och gjort fetch anropen i ett samlat dokument men jag känner personligen att jag vet att
-det ska göras och jag vet vad som ska förbättras. Men jag känner också att jag kan pilla med detta i 
-någon vecka till. 
+The frontend is simple and created using React and Vite.
 
 
-Men nu fungerar iallafall, login , syncronisering , skriver till databas, central felhantering , loggning osv.. det blev mycket. Min request log låg på 12000, error: 3000  rader efter implementering :D. 
+The backend follows a strict MVC pattern and is using the following dependencies: 
 
-Har kommenterat på limitern eftersom den stöka lite, men den ligger där :D 
+express - HTTP server and routing
+jsonwebtoken - JWT creation and verification
+bcryptjs - Password hashing and comparison
+mongoose - MongoDB ODM and schema definition
+pubnub - Real-time peer-to-peer chain/transaction broadcast
+elliptic - secp256k1 key pairs and digital signatures
+uuid - Unique transaction IDs
+dotenv - Environment variable 
+validator - Email format validation
+helmet - HTTP security headers
+cors - Cross-origin resource sharing
+express-mongo-sanitize - NoSQL injection prevention
+hpp - HTTP parameter pollution prevention
+express-rate-limit - Request rate limiting
+nodemon - Dev auto server restart
+cross-env - Cross-platform environment variables
 
-För uppstart: 
 
-skapa config/config.env i back-end rooten: 
+Backend:
+
+add file: config/config.env in back-end root: 
 
 PORT=3000
 NODE_ENV=development
-PUB_KEY=<KEY>
-SUB_KEY=<KEY>
-SEC_KEY=<KEY>
-USER_ID=<ID>
-MONGODB_URI=<URI> te.x mongodb+srv://<USERINFO>@production-cluster.ziptcgy.mongodb.net/blockchain?retryWrites=true&w=majority ( ANVÄNDE ATLAS-CLOUD MEN BORDE FUNKA MED LOCAL OCKSÅ ? )
-JWT_SECRET=<SECRET>
-JWT_EXPIRES=7d 
+MONGODB_URI=<mongodb+srv://...>
+JWT_SECRET=<secret>
+JWT_EXPIRES=7d
+PUB_KEY=<pubnub publish key>
+SUB_KEY=<pubnub subscribe key>
+SEC_KEY=<pubnub secret key>
+USER_ID=<pubnub user id>
 
-
+// install dependencies
 npm install
+
+// run
 npm run dev
+
+// run nodes
 npm run dev-node
 npm run dev-node
 npm run dev-node
 
 
-
-Front end: 
+Frontend: 
 
 npm install 
 npm run dev 
