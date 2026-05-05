@@ -48,13 +48,21 @@ Backend:
 add file: config/config.env in back-end root: 
 
 PORT=3000
+
 NODE_ENV=development
+
 MONGODB_URI=<mongodb+srv://...>
+
 JWT_SECRET=<secret>
+
 JWT_EXPIRES=7d
+
 PUB_KEY=<pubnub publish key>
+
 SUB_KEY=<pubnub subscribe key>
+
 SEC_KEY=<pubnub secret key>
+
 USER_ID=<pubnub user id>
 
 // install dependencies
