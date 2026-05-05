@@ -1,90 +1,91 @@
-This project is a backend focused, full-stack blockchain application, built with Node.js and React. 
+# Blockchain Crypto
 
-The project simulates a cryptocurrency network where multiple peer nodes run simultaneously, synchronize their chains via PubNub, authenticate users with JWT, and persist data to MongoDB.
-
+This project is a backend focused, full-stack blockchain application built with Node.js and React.
+The project simulates a cryptocurrency network where multiple peer nodes run simultaneously,
+synchronize their chains via PubNub, authenticate users with JWT, and persist data to MongoDB.
 The frontend is simple and created using React and Vite.
 
+---
 
-The backend follows a strict MVC pattern and is using the following dependencies: 
+## Dependencies
 
-#express - HTTP server and routing
+The backend follows a strict MVC pattern and uses the following dependencies:
 
-#jsonwebtoken - JWT creation and verification
+| Package | Use |
+|---|---|
+| express | HTTP server and routing |
+| jsonwebtoken | JWT creation and verification |
+| bcryptjs | Password hashing and comparison |
+| mongoose | MongoDB ODM and schema definition |
+| pubnub | Real-time peer-to-peer chain/transaction broadcast |
+| elliptic | secp256k1 key pairs and digital signatures |
+| uuid | Unique transaction IDs |
+| dotenv | Environment variable loading |
+| validator | Email format validation |
+| helmet | HTTP security headers |
+| cors | Cross-origin resource sharing |
+| express-mongo-sanitize | NoSQL injection prevention |
+| hpp | HTTP parameter pollution prevention |
+| express-rate-limit | Request rate limiting |
+| nodemon | Dev auto server restart |
+| cross-env | Cross-platform environment variables |
 
-#bcryptjs - Password hashing and comparison
+The frontend uses the following dependencies:
 
-#mongoose - MongoDB ODM and schema definition
+| Package | Use |
+|---|---|
+| react | UI framework |
+| react-dom | Renders React to the browser |
+| vite | Build tool and dev server with hot module replacement |
 
-#pubnub - Real-time peer-to-peer chain/transaction broadcast
+---
 
-#elliptic - secp256k1 key pairs and digital signatures
+## How to Run
 
-#uuid - Unique transaction IDs
+### Backend
 
-#dotenv - Environment variable 
+Create `config/config.env` in the back-end root:
 
-#validator - Email format validation
-
-#helmet - HTTP security headers
-
-#cors - Cross-origin resource sharing
-
-#express-mongo-sanitize - NoSQL injection prevention
-
-#hpp - HTTP parameter pollution prevention
-
-#express-rate-limit - Request rate limiting
-
-#nodemon - Dev auto server restart
-
-#cross-env - Cross-platform environment variables
-
-
-
-#How to run
-
-Backend:
-
-add file: config/config.env in back-end root: 
-
+```
 PORT=3000
-
 NODE_ENV=development
-
-MONGODB_URI=<mongodb+srv://...>
-
-JWT_SECRET=<secret>
-
+MONGODB_URI=mongodb+srv://...
+JWT_SECRET=your_secret
 JWT_EXPIRES=7d
+PUB_KEY=your_pubnub_publish_key
+SUB_KEY=your_pubnub_subscribe_key
+SEC_KEY=your_pubnub_secret_key
+USER_ID=your_pubnub_user_id
+```
 
-PUB_KEY=<pubnub publish key>
+Install dependencies:
 
-SUB_KEY=<pubnub subscribe key>
-
-SEC_KEY=<pubnub secret key>
-
-USER_ID=<pubnub user id>
-
-// install dependencies
-
+```
 npm install
+```
 
-// run
+Run the main server:
 
+```
 npm run dev
+```
 
-// run nodes
+Run additional peer nodes, each in a separate terminal:
 
+```
 npm run dev-node
-npm run dev-node
-npm run dev-node
+```
 
+### Frontend
 
-Frontend: 
+Install dependencies:
 
-npm install 
+```
+npm install
+```
 
-npm run dev 
+Run the dev server:
 
-
-
+```
+npm run dev
+```
