@@ -7,22 +7,22 @@ The frontend is simple and created using React and Vite.
 
 The backend follows a strict MVC pattern and is using the following dependencies: 
 
-express - HTTP server and routing
-jsonwebtoken - JWT creation and verification
-bcryptjs - Password hashing and comparison
-mongoose - MongoDB ODM and schema definition
-pubnub - Real-time peer-to-peer chain/transaction broadcast
-elliptic - secp256k1 key pairs and digital signatures
-uuid - Unique transaction IDs
-dotenv - Environment variable 
-validator - Email format validation
-helmet - HTTP security headers
-cors - Cross-origin resource sharing
-express-mongo-sanitize - NoSQL injection prevention
-hpp - HTTP parameter pollution prevention
-express-rate-limit - Request rate limiting
-nodemon - Dev auto server restart
-cross-env - Cross-platform environment variables
+#express - HTTP server and routing
+#jsonwebtoken - JWT creation and verification
+#bcryptjs - Password hashing and comparison
+#mongoose - MongoDB ODM and schema definition
+#pubnub - Real-time peer-to-peer chain/transaction broadcast
+#elliptic - secp256k1 key pairs and digital signatures
+#uuid - Unique transaction IDs
+#dotenv - Environment variable 
+#validator - Email format validation
+#helmet - HTTP security headers
+#cors - Cross-origin resource sharing
+#express-mongo-sanitize - NoSQL injection prevention
+#hpp - HTTP parameter pollution prevention
+#express-rate-limit - Request rate limiting
+#nodemon - Dev auto server restart
+#cross-env - Cross-platform environment variables
 
 
 Backend:
