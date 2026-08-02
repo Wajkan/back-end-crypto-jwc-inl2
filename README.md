@@ -1,13 +1,7 @@
-# Blockchain Crypto
-
-This project is a backend focused, full-stack blockchain application built with Node.js and React.
 The project simulates a cryptocurrency network where multiple peer nodes run simultaneously,
 synchronize their chains via PubNub, authenticate users with JWT, and persist data to MongoDB.
-The frontend is simple and created using React and Vite.
 
 ---
-
-## Dependencies
 
 The backend follows a strict MVC pattern and uses the following dependencies:
 
@@ -30,7 +24,7 @@ The backend follows a strict MVC pattern and uses the following dependencies:
 | nodemon | Dev auto server restart |
 | cross-env | Cross-platform environment variables |
 
-The frontend uses the following dependencies:
+Frontend dependencies:
 
 | Package | Use |
 |---|---|
